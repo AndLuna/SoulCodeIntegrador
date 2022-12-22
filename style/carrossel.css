@@ -8,6 +8,7 @@
     margin-top: -13px;
   }
   
+ 
   .slide {
     /* border: 1px solid blue; */
     object-fit: contain;
@@ -16,7 +17,14 @@
     position: absolute;
     top: 0;
     left: 0;
+    object-fit: cover;
   }
+
+  #slide1{
+    width: 1920px;
+    margin-left: -300px;
+  }
+
 
 
   /* <------- botoes --------->  */
