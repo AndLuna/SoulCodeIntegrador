@@ -1,3 +1,5 @@
+
+// funcao passar o slide
 var currentSlide = 0;
 var slides = document.querySelectorAll('.slide');
 var totalSlides = slides.length;
