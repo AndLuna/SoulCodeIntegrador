@@ -34,7 +34,7 @@ header{
     display: flex;
     position: block;
     justify-content: center;
-    margin-left: -90px;
+    margin-left: -50px;
  
 }
 .nav-item{
@@ -44,7 +44,10 @@ header{
     margin-top: 10px;
   
 }
-.nav-item:hover{ border-bottom: 3px solid black;}
+.nav-item:hover{
+     border-bottom: 3px solid black;
+    margin-top: 1px;
+    }
 
 .nav-item a{
     text-decoration: none;

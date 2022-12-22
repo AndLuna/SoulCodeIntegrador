@@ -10,6 +10,7 @@
   
   .slide {
     /* border: 1px solid blue; */
+    object-fit: contain;
     width: 100%;
     height: 600px;
     position: absolute;
