@@ -47,3 +47,6 @@ function goToSlide(n) {
     slides[currentSlide].style.left = '0';
     updateDots();
   }
+
+
+  
