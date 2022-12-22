@@ -15,11 +15,17 @@ header{
   background-color: black;
     height: 50px;
     color: white;
+    display: flex;
+    position: block;
+    justify-content: center;
     
 }
 .h-titulo p{
-    margin-left: 47.1%;
+    margin-left: 1.5%;
     margin-top: 0.6%;
+    display: flex;
+    position: block;
+    justify-content: center;
     
 }
 .h-medio{
