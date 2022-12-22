@@ -1,6 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Clicker+Script&family=Kanit:wght@100&family=Poppins:wght@200;300;500;600;700&display=swap');
 
-
+body{
+    font-family: 'Chivo Mono', monospace;
+}
 .container{
     
     background-color: white;
