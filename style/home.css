@@ -9,13 +9,21 @@
     font-family:Arial, Helvetica, sans-serif;
     
 }*/
+
+.produtos{
+    display: flex;
+    margin-left: 155px;
+}
 .card {
-    display: inline-block; 
+
+
+    display: inline-block; /* Exibe os cards lado a lado */
     width: 20%; 
     height: 400px; 
     background-color: #f1f1f1; 
-    margin: 10px; 
+    margin: 10px;
     text-align: center; 
+ 
   }
   
   /* Define o estilo para as imagens dos cards */
@@ -39,4 +47,41 @@
   .card .descricao {
     font-size: 14px; 
     color: #333333; 
+  }
+
+
+
+
+/* Define o estilo para os botões */
+button {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    background-color: #000000;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    position: absolute; 
+    top: 50%; 
+
+  }
+  
+  #btn-prev {
+    position: absolute; 
+    top: 138%;
+    left: 190px; 
+    transform: translate(-50%, -50%); 
+  }
+  
+  /* .products-section {
+    position: relative; /* Posiciona a seção de forma relativa 
+  } */
+  
+  /* Define o estilo para o botão de avançar */
+  #btn-next {
+    position: absolute;
+    top: 138%; 
+       right: 170px; 
+    transform: translateY(-50%); 
   }
