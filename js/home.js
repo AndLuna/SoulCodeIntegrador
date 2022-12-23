@@ -36,10 +36,11 @@
 
 // janela modal
 
-const modal = document.getElementById('modal');
-const modalImage = document.getElementById('modal-image');
-const modalTitle = document.getElementById('modal-title');
-const modalDescription = document.getElementById('modal-description');
+// const modal = document.getElementById('modal');
+// const modalImage = document.getElementById('modal-image');
+// const modalTitle = document.getElementById('modal-title');
+// const modalDescription = document.getElementById('modal-description');
+// event.preventDefault();
 
 
 // criei as variaveis que eu iria utilizar pegando os valores pelo ID
@@ -47,7 +48,11 @@ const modalDescription = document.getElementById('modal-description');
 // Exceto o modalTitle, achei melhor vincula-lo diretamente
 // ao valor que eu colocar na tag h3 em title-tendencia[1...4]
 
-function showModal(cardId) {
+// deixar modal como let em vez de const para que event de hidden funcione
+let modal;
+
+function showModal(event, cardId) {
+  event.preventDefault();
   const modalTitle = document.getElementById('modal-title');
   const modalDescription = document.getElementById('modal-description');
   const modalImage = document.getElementById('modal-image');
@@ -69,7 +74,7 @@ function showModal(cardId) {
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent = 
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
-    modalValor.textContent  = '299,99R$'
+    modalValor.textContent  = '199,99R$'
 
   } else if (cardId === 3) {
     const h3 = document.getElementById('title-tendencia3');
@@ -78,37 +83,33 @@ function showModal(cardId) {
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent = 
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
-      modalValor.textContent  = '299,99R$'
+    modalValor.textContent  = '99,99R$'
 
   } else if (cardId === 4) {
     const h3 = document.getElementById('title-tendencia4');
 
     modalImage.src = '/images/trend4.png';
     modalTitle.textContent = h3.textContent;
-    modalDescription.textContent =
-     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
-     modalValor.textContent  = '299,99R$'
-
-  } else {
-    console.log('Invalid card ID');
+    modalDescription.textContent = 
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
+    modalValor.textContent  = '49,99R$'
   }
-  
 
-  
-
-
-  // Display do modal
+  //tornando o modal visivel
+  const modal = document.getElementById('modal');
   modal.style.display = 'block';
 }
 
+//agora esconder o modal
 function hideModal() {
-  // escondendno o modal
+  const modal = document.getElementById('modal');
   modal.style.display = 'none';
 }
 
-// se o usuario clicar fora do modal = fecha o modal
-window.addEventListener('click', function(event) {
+//evento de janela, se o usuario clicar fora da janela do modal, ele sera fechado
+window.addEventListener('click', function (event) {
+  const modal = document.getElementById('modal');
   if (event.target === modal) {
-    hideModal();
+    modal.style.display = 'none';
   }
 });
