@@ -1,20 +1,22 @@
- // Obtém a lista de todos os cards de produtos
- const cards = document.querySelectorAll('.card');
 
- // Oculta todos os cards, exceto os 4 primeiros
- for (let i = 4; i < cards.length; i++) {
-   cards[i].style.display = 'none';
+ 
+ // Obtém a lista de todos os card de produtos
+ const card = document.querySelectorAll('.card');
+
+ // Oculta todos os card, exceto os 4 primeiros
+ for (let i = 4; i < card.length; i++) {
+   card[i].style.display = 'none';
  }
 
  // Adiciona um evento de clique ao botão de avançar
  document.getElementById('btn-next').addEventListener('click', function() {
-   // Oculta os 4 primeiros cards
+   // Oculta os 4 primeiros card
    for (let i = 0; i < 4; i++) {
-     cards[i].style.display = 'none';
+     card[i].style.display = 'none';
    }
-   // Mostra os próximos 4 cards
+   // Mostra os próximos 4 card
    for (let i = 4; i < 8; i++) {
-     cards[i].style.display = 'inline-block';
+     card[i].style.display = 'inline-block';
  
    }
    
@@ -22,13 +24,13 @@
 
  // Adiciona um evento de clique ao botão de voltar
  document.getElementById('btn-prev').addEventListener('click', function() {
-   // Oculta os últimos 4 cards
+   // Oculta os últimos 4 card
    for (let i = 4; i < 8; i++) {
-     cards[i].style.display = 'none';
+     card[i].style.display = 'none';
    }
-   // Mostra os 4 cards anteriores
+   // Mostra os 4 card anteriores
    for (let i = 0; i < 4; i++) {
-     cards[i].style.display = 'inline-block';
+     card[i].style.display = 'inline-block';
    }
  });
 
@@ -115,3 +117,7 @@ window.addEventListener('click', function (event) {
     modal.style.display = 'none';
   }
 });
+
+
+// dot de paginacao
+// Cria as bolinhas de paginação

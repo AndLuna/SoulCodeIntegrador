@@ -69,13 +69,14 @@
   }
   
   .dot {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     background-color: gray;
-    margin: 0 5px;
+    margin: 0 3px;
     margin-top: 5px;
   }
+  
 
 
 

@@ -10,7 +10,21 @@ header{
     justify-content:space-between;
     /* border: 1px solid red; */
     font-family: 'Chivo Mono', monospace;
+    /* display: none; */
 }
+.header.show {
+    /* estilos para exibir o menu quando o usuário rolar a página */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: white;
+    display: block;
+  }
+
+
+
 .h-titulo{
   background-color: black;
     height: 50px;
