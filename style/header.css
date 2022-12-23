@@ -15,7 +15,7 @@ header{
 .header.show {
     /* estilos para exibir o menu quando o usuário rolar a página */
     position: fixed;
-    top: 0;
+    top: -8px;
     left: 0;
     right: 0;
     z-index: 999;
