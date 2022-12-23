@@ -11,6 +11,7 @@ header{
     /* border: 1px solid red; */
     font-family: 'Chivo Mono', monospace;
     /* display: none; */
+  
 }
 .header.show {
     /* estilos para exibir o menu quando o usuário rolar a página */
@@ -32,15 +33,16 @@ header{
     display:block;
     position: block;
     justify-content: center;
+    border: 1px solid blue;
     
 }
 .h-titulo p{
     margin-left: 1.5%;
-    margin-top: 0.6%;
+    margin-top: 1.3%;
     display: flex;
     position: block;
     justify-content: center;
-    
+    /* border: 1px solid red; */
 }
 .h-medio{
     display: flex;
@@ -75,6 +77,8 @@ header{
     display: inline-block;
     position: relative;
     margin: 10%;
+    left: 50px;
+    font-size: 15px;
 }
 
 /* <------ search ------->*/
