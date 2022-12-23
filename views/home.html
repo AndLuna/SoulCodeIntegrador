@@ -97,32 +97,47 @@
           </section>
 
 
-
+            <!-- inicio seção trends, observar o onclick Showmodal -->
           <section id="trending-section">
             <h2>Tendencias</h2>
             <div class="card-container">
-              <a class="card-trending" href="#">
+              <a class="card-trending" href="#" onclick="showModal(1)">
                 <img src="/images/trend1.png" alt="Trending 1">
-                <h3>Tendencia 1</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit a fugit ipsa eveniet magni.</p>
+                <h3 id="title-tendencia1">suv 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </a>
-              <a class="card-trending" href="#">
+              <a class="card-trending" href="#" onclick="showModal(2)">
                 <img src="/images/trend2.png" alt="Trending 2">
-                <h3>Tendencia 2</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit a fugit ipsa eveniet magni.</p>
-              </a>
-              <a class="card-trending" href="#">
+                <h3 id="title-tendencia2">Tendencia 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>              </a>
+              <a class="card-trending" href="#" onclick="showModal(3)">
                 <img src="/images/trend3.png" alt="Trending 3">
-                <h3>Tendencia 3</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit a fugit ipsa eveniet magni.</p>
-              </a>
-              <a class="card-trending" href="#">
+                <h3 id="title-tendencia3">Tendencia 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>              </a>
+              <a class="card-trending" href="#" onclick="showModal(4)">
                 <img src="/images/trend4.png" alt="Trending 4">
-                <h3>Tendencia 4</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit a fugit ipsa eveniet magni.</p>
-              </a>
+                <h3 id="title-tendencia4">Tendencia 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>              </a>
             </div>
           </section>
+          
+
+          <!-- inicio janelinha modal -->
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="hideModal()">&times;</span>
+    <img id="modal-image" src="trending-1.jpg" alt="Trending 1">
+    <div class="modal-text-separation">
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+      <p id="modal-valor"></p>
+      
+    </div>
+
+  </div>
+</div>
+
     <!-- <div class="chamada">
         <h1>E, ai já escolheu o que você vai levar?</h1>
         <h2>Dá uma olhadinha nos produtos abaixo!</h2>
