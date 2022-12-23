@@ -97,6 +97,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
   }
   
   #trending-section h2 {
