@@ -48,6 +48,8 @@
 // Exceto o modalTitle, achei melhor vincula-lo diretamente
 // ao valor que eu colocar na tag h3 em title-tendencia[1...4]
 
+//o ideal seria criar no HTML, mas estava bugando.
+
 // deixar modal como let em vez de const para que event de hidden funcione
 let modal;
 

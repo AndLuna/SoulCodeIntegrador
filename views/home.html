@@ -6,11 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Sport Center Soul</title>
     <link rel="stylesheet" href="/style/reset.css">
+    <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/home.css" type="text/css">
     <link rel="stylesheet" href="/style/carrossel.css">
 </head>
 <body>
-    <iframe src="/partials/header.html" frameborder="0" height="150px" width="100%"></iframe>
+  <!-- <iframe src="/partials/header.html" frameborder="0" height="150px" width="100%"></iframe> -->
+
+  <header class="header">
+    <div class="h-titulo"><p>Titulo do projeto</p></div>
+
+    <div class="h-medio">
+        <div class="h-navybar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="/views/home.html">Home</a></li>
+                <li class="nav-item"><a href="/views/carrinho.html">Produtos</a></li>
+                <li class="nav-item"><a href="../views/about.html">Sobre</a></li>
+                <li class="nav-item"><a href="/views/contact.html">Contato</a></li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <div class="search">
+                <input type="text" placeholder="Procurar">
+            </div>
+            <div class="icons-header">
+                <div class="icon-right-site"> 
+                    <a href="#">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </a>
+                   
+                </div>
+            
+                <div class="icon-right-site">
+                    <a href="#">
+                        <ion-icon name="star-outline"></ion-icon>
+                    </a>
+                   
+                </div>
+            
+                <div class="icon-right-site">
+                    <a href="#">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </a>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        
+        </div>
+
+
+    <div class="h-cadastro"><a href="#">
+        Entre para o clube
+
+    </a>
+    </div>
+
+
+</header>
+
+
 
     <!-- inicio carrossel -->
     <div id="carousel">
@@ -192,7 +249,9 @@
 
 
 </section> -->
-
+<!-- header  -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <!-- ---- nao mexer abaixo -->
     <script src="/js/home.js"></script>
 <script src="/js/carrossel.js"></script>
