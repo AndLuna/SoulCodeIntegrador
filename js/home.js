@@ -15,8 +15,9 @@
    // Mostra os próximos 4 cards
    for (let i = 4; i < 8; i++) {
      cards[i].style.display = 'inline-block';
-     
+ 
    }
+   
  });
 
  // Adiciona um evento de clique ao botão de voltar
