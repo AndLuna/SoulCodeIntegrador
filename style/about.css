@@ -26,6 +26,7 @@ h4{
 
 .container_img{
     height: 700px;
+    width: 900px;
 }
 
 .container_descricao_central{
@@ -48,12 +49,13 @@ text-align: justify;
     font-weight: 500;
     color: black;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 470px;
 }
 .container_img_central{
     width: 900px;
     height: 450px;
-    padding-top: 30px;
+    
+    padding: auto;
     
 
 }
