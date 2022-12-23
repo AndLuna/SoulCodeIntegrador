@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="../style/contact.css">
 </head>
@@ -13,69 +14,40 @@
         
          
         <div class="content">      
-          <div id="contato">
-            <form method="post" action=""> 
+          <div id="contato"> 
               <h1>Preencha suas informações</h1>
-              <h2 Style="text-align: center;">Logo entraremos em contato</h2> 
-              <div class="div1">
-              <p> 
-                <label for="nome_login">Seu nome</label>
-                <input id="nome_login" name="nome" required="required" type="text" placeholder="João"/>
-              </p>
-              <p> 
-                <label for="nome_login">Seu Sobrenome</label>
-                <input id="nome_login" name="nome" required="required" type="text" placeholder="Santos"/>
-              </p>
-               
-              <p> 
-                <label for="email_login">Seu e-mail</label>
-                <input id="email_login" name="email" required="required" type="email" placeholder="ex. exemplo@gmail.com" /> 
-              </p>
+              <h2 Style="text-align: center;">Logo entraremos em contato</h2>
+              <div class="div1"> 
+              <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-              <p> 
-                <label for="email_login">Seu Cpf</label>
-                <input id="email_login" name="Cpf" required="required" type="text" placeholder="Só números" /> 
-              </p>
-
-              <p> 
-                <label for="email_login">Seu Celular</label>
-                <input id="email_login" name="Celular" required="required" type="text" placeholder="81-98888-8888" /> 
-              </p>
-            </div>
-            <div class="div2">
-              <p> 
-                <label for="email_login">Seu Telefone</label>
-                <input id="email_login" name="email_login" required="required" type="text" placeholder="9999-9999" /> 
-              </p>
-
-              <p> 
-                <label for="email_login">Cep</label>
-                <input id="email_login" name="email_login" required="required" type="text" placeholder="00000-000" /> 
-              </p>
-
-              <p> 
-                <label for="email_login">Tamanho de Camisa</label>
-                <input id="email_login" name="email_login" required="required" type="text" placeholder="P,M,G,GG,XG" /> 
-              </p>
-
-              <p> 
-                <label for="email_login">Tamanho Bermuda</label>
-                <input id="email_login" name="email_login" required="required" type="text" placeholder="36 ao 54" /> 
-              </p>
-
-              <p> 
-                <label for="email_login">Tamanho de Calçado</label>
-                <input id="email_login" name="email_login" required="required" type="text" placeholder="35 ao 53" /> 
-              </p>
-              <div class = "div4">
-              <input type="button" value="Enviar informações"> 
-            </div>
-            </div>
-            
-              
-            
-            
-            </form>
+                <input type=hidden name="oid" value="00DDn000006ArjU">
+                <input type=hidden name="retURL" value="https://www.youtube.com/watch?v=sn_VWhhe0O4">
+                
+                <label for="first_name">Primeiro Nome</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+                
+                <label for="last_name">Sobrenome</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+                
+                <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+                
+                <label for="company">Empresa</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+                
+                <label for="city">Cidade</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+              </div>
+              <div class="div2"> 
+                <label for="state">Estado/província</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+                
+                <label for="phone">Telefone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+                
+                <label for="mobile">Celular</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
+                
+                <label for="zip">CEP</label><input  id="zip" maxlength="20" name="zip" size="20" type="text" /><br>
+                
+                <label for="fax">Fax</label><input  id="fax" maxlength="40" name="fax" size="20" type="text" /><br>
+              </div>
+              <div class="div4">
+                <input type="submit" name="submit">
+              </div>
+                </form>
           </div>
         </div>
       </div>  
