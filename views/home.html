@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Sport Center Soul</title>
+    <link rel="stylesheet" href="/style/reset.css">
     <link rel="stylesheet" href="../style/home.css" type="text/css">
+    <link rel="stylesheet" href="/style/carrossel.css">
 </head>
 <body>
+    <iframe src="/partials/header.html" frameborder="0" height="150px" width="100%"></iframe>
+
+    <!-- inicio carrossel -->
+    <div id="carousel">
+        <img src="/images/foot.jpg" class="slide">
+        <img src="/images/hero-bg.jpg" class="slide">
+        <img src="/images/ucd-sport-2016-pageBanner04.jpg" class="slide">
+      </div>
+      <button id="previous"> <img src="/images/arrow-circle-left.svg" alt="">  </button>
+      <button id="next"> <img src="/images/arrow-circle-right.svg" alt=""> </button>
+
+      <!-- bolinhas de paginacao -->
+      <div id="pagination">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    <!-- fim carrossel -->
+
     <div class="chamada">
         <h1>E, ai já escolheu o que você vai levar?</h1>
         <h2>Dá uma olhadinha nos produtos abaixo!</h2>
@@ -54,6 +75,12 @@
 
 </section>
 
-    
+    <!-- ---- nao mexer abaixo -->
+<script src="/js/carrossel.js"></script>
+<iframe src="/partials/footer.html" frameborder="0" height="150px" width="100%"></iframe>
+    <!-- <iframe src="/partials/footer.html" frameborder="0" height="150px" width="100%"></iframe> -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
