@@ -121,3 +121,41 @@ window.addEventListener('click', function (event) {
 
 // dot de paginacao
 // Cria as bolinhas de paginação
+
+
+
+// secao carrossel produtos novidades
+
+ // Obtém a lista de todos os card de produtos
+ const card2 = document.querySelectorAll('.card2');
+
+ // Oculta todos os card, exceto os 4 primeiros
+ for (let i = 5; i < card2.length; i++) {
+   card2[i].style.display = 'none';
+ }
+
+ // Adiciona um evento de clique ao botão de avançar
+ document.getElementById('btn-next2').addEventListener('click', function() {
+   // Oculta os 4 primeiros card
+   for (let i = 0; i < 5; i++) {
+     card2[i].style.display = 'none';
+   }
+   // Mostra os próximos 4 card
+   for (let i = 5; i < 10; i++) {
+     card2[i].style.display = 'inline-block';
+ 
+   }
+   
+ });
+
+ // Adiciona um evento de clique ao botão de voltar
+ document.getElementById('btn-prev2').addEventListener('click', function() {
+   // Oculta os últimos 4 card
+   for (let i = 5; i < 10; i++) {
+     card2[i].style.display = 'none';
+   }
+   // Mostra os 4 card anteriores
+   for (let i = 0; i < 5; i++) {
+     card2[i].style.display = 'inline-block';
+   }
+ });
