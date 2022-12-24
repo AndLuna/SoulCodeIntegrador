@@ -124,24 +124,89 @@ window.addEventListener('click', function (event) {
 
 
 
+
+
+
+
 // secao carrossel produtos novidades
+// const cards = document.querySelectorAll('.card2');
+// const controls = document.querySelectorAll('.control');
+
+// let currentCard = 0;
+// let isAnimating = false;
+
+// function showCard(card) {
+//   if (!isAnimating) {
+//     isAnimating = true;
+
+//     cards[currentCard].classList.add('hidden');
+//     cards[currentCard].classList.remove('active');
+//     cards[card].classList.add('active');
+//     cards[card].classList.remove('hidden');
+
+//     currentCard = card;
+
+//     isAnimating = false;
+//   }
+// }
+
+// function nextCard() {
+//   let next = currentCard + 2;
+
+//   if (next >= cards.length) {
+//     next = 0;
+//   }
+
+//   showCard(next);
+// }
+
+// function prevCard() {
+//   let prev = currentCard - 2;
+
+//   if (prev < 0) {
+//     prev = cards.length - 2;
+//   }
+
+//   showCard(prev);
+// }
+
+// controls.forEach(control => control.addEventListener('click', e => {
+//   if (e.target.classList.contains('right')) {
+//     nextCard();
+//   } else {
+//     prevCard();
+//   }
+// }));
+
+// setInterval(nextCard, 1000);
+
+
+
+
+
+
+
+
+
+
+
 
  // Obtém a lista de todos os card de produtos
  const card2 = document.querySelectorAll('.card2');
 
  // Oculta todos os card, exceto os 4 primeiros
- for (let i = 5; i < card2.length; i++) {
+ for (let i = 3; i < card2.length; i++) {
    card2[i].style.display = 'none';
  }
 
  // Adiciona um evento de clique ao botão de avançar
  document.getElementById('btn-next2').addEventListener('click', function() {
    // Oculta os 4 primeiros card
-   for (let i = 0; i < 5; i++) {
+   for (let i = 0; i < 3; i++) {
      card2[i].style.display = 'none';
    }
    // Mostra os próximos 4 card
-   for (let i = 5; i < 10; i++) {
+   for (let i = 3; i < 6; i++) {
      card2[i].style.display = 'inline-block';
  
    }
@@ -151,11 +216,13 @@ window.addEventListener('click', function (event) {
  // Adiciona um evento de clique ao botão de voltar
  document.getElementById('btn-prev2').addEventListener('click', function() {
    // Oculta os últimos 4 card
-   for (let i = 5; i < 10; i++) {
+   for (let i = 3; i < 6; i++) {
      card2[i].style.display = 'none';
    }
    // Mostra os 4 card anteriores
-   for (let i = 0; i < 5; i++) {
+   for (let i = 0; i < 3; i++) {
      card2[i].style.display = 'inline-block';
    }
  });
+
+

@@ -263,7 +263,7 @@ border-radius: 4px;
 }
 
 
-/* <!-- inicio banner --> */
+/* <!--                            inicio banner --> */
 section.banner{
   display: flex;
   justify-content:center;
@@ -300,66 +300,77 @@ height: 30px;
 }
 
 
-/* secao de carrosel produtos destaques */
-.produtos2{ display: flex;}
-.card2{
-  display: inline-block; /* Exibe os cards lado a lado */
-  width: 19%; 
-  height: 330px; 
-  background-color: transparent; 
+/*                            secao de carrosel produtos novidades */
+
+
+.produtos2 {
+  display: flex;
+  justify-content: space-around;
+width: 99%;
+height: 530px;
+margin-left: -50px;
+}
+
+.card2 {
+  display: inline-block;
+  width: 19%;
+  height: 330px;
+  background-color: transparent;
   margin: 10px;
-  text-align: center; 
+  text-align: center;
+  height: 530px;
+
 }
 
 /* Define o estilo para as imagens dos cards */
 .card2 img {
-  width: 80%; 
-  height: 60%; 
+  width: 360px;
+  height: 80%;
 }
 
 /* Define o estilo para o texto dos cards */
 .card2 .desconto2 {
-  font-size: 16px; 
+  font-size: 16px;
   font-weight: bold;
-  color: #ffffff; 
+  color: #ffffff;
   margin: 10px;
   margin-left: 10px;
-  border: 1px solid red;
+  
   width: 80px;
   background-color: red;
 }
 
 .card2 .preco2 {
-  font-size: 16px; 
-  color: #000000; 
+  font-size: 16px;
+  color: #000000;
   margin: 10px;
   margin-left: -95px;
 }
 
 .card2 .descricao2 {
-  font-size: 14px; 
-  color: #333333; 
-  padding: 10px 10px 10px 20px;
+  font-size: 14px;
+  color: #333333;
+  padding: 10px 10px 10px 0px;
+  margin-left: -146px;
 }
 
 /* parte do meio depois do carrossel */
-.bottom-section2{
+.bottom-section2 {
   display: flex;
   justify-content: space-between;
   width: 900px;
   margin-left: 13%;
   margin-bottom: 30px;
-  
 }
-.bottom-title2{
+
+.bottom-title2 {
   width: 400px;
   font-weight: bolder;
-  
 }
-.bottom-title2 p{
+
+.bottom-title2 p {
   margin-top: 16px;
   font-size: 24px;
-  
 }
 
 /* Define o estilo para os botões */
