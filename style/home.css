@@ -13,11 +13,14 @@
 body{
   font-family: 'Chivo Mono', monospace;
 }
+
+
+/* seção de destaque */
 .produtos{
     display: flex;
-    margin-left: 155px;
+    justify-content: center;
 }
-.card {
+.destaque-card {
 
 
     display: inline-block; /* Exibe os cards lado a lado */
@@ -26,17 +29,19 @@ body{
     background-color: #f1f1f1; 
     margin: 10px;
     text-align: center; 
+    /* border: 1px solid red; */
+   
  
   }
   
   /* Define o estilo para as imagens dos cards */
-  .card img {
+  .destaque-card img {
     width: 80%; 
     height: 60%; 
   }
   
   /* Define o estilo para o texto dos cards */
-  .card .desconto {
+  .destaque-card .desconto {
     font-size: 16px; 
     font-weight: bold;
     color: #ffffff; 
@@ -47,34 +52,36 @@ body{
     background-color: red;
   }
   
-  .card .preco {
+  .destaque-card .preco {
     font-size: 16px; 
     color: #000000; 
     margin: 10px;
     margin-left: -120px;
   }
   
-  .card .descricao {
+  .destaque-card .descricao {
     font-size: 14px; 
     color: #333333; 
     padding: 0px 10px 10px 10px;
   }
 
-  /* parte do meio depois do carrossel */
-.bottom-section{
+   /* Destaque title */
+.destaque_section{
     display: flex;
     justify-content: space-between;
-    width: 900px;
-    margin-left: 13%;
-    margin-bottom: 30px;
+    width: 650px;
+    margin: 30px 0px 10px 0px;
+    margin-left: 42.6%;
+
+    /* border: 1px solid red; */
     
 }
-.bottom-title{
+.destaque_title{
     width: 400px;
     font-weight: bolder;
     
 }
-.bottom-title p{
+.destaque_title p{
     margin-top: 16px;
     font-size: 24px;
     
@@ -115,7 +122,7 @@ color: white;
 
 
 
-/*     noticias      */
+/*     tendencias      */
 
 #trending-section {
     display: flex;
@@ -287,11 +294,11 @@ height: 30px;
 .banner a{
   /* border: 1px solid blue;  */
   height: 50px;
-  margin-top: 36px;
+  margin-top: 40px;
   height: 30px;
   width: 320px;
-  font-size: 22px;
-  padding: 20px;
+  font-size: 18px;
+  padding: 18px 20px 30px 20px;
   background-color: white;
   text-decoration: none;
   color:#bc183cd3; 
