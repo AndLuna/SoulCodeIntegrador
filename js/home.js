@@ -39,13 +39,6 @@
 
 // janela modal
 
-// const modal = document.getElementById('modal');
-// const modalImage = document.getElementById('modal-image');
-// const modalTitle = document.getElementById('modal-title');
-// const modalDescription = document.getElementById('modal-description');
-// event.preventDefault();
-
-
 // criei as variaveis que eu iria utilizar pegando os valores pelo ID
 // depois atribuir em cada ifElse suas caracteristicas
 // Exceto o modalTitle, achei melhor vincula-lo diretamente
@@ -65,8 +58,9 @@ function showModal(event, cardId) {
   
   if (cardId === 1) {
     const h3 = document.getElementById('title-tendencia1');
+    const img = document.getElementById('tendencia_imagem1');
 
-    modalImage.src = '/images/trend1.png';
+    modalImage.src = img.src;
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent =
      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
@@ -74,8 +68,9 @@ function showModal(event, cardId) {
  
   } else if (cardId === 2) {
     const h3 = document.getElementById('title-tendencia2');
-    
-    modalImage.src = '/images/trend2.png';
+    const img = document.getElementById('tendencia_imagem2');
+
+    modalImage.src = img.src;
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent = 
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
@@ -83,8 +78,9 @@ function showModal(event, cardId) {
 
   } else if (cardId === 3) {
     const h3 = document.getElementById('title-tendencia3');
+    const img = document.getElementById('tendencia_imagem3');
 
-    modalImage.src = '/images/trend3.png';
+    modalImage.src = img.src;
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent = 
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
@@ -92,8 +88,9 @@ function showModal(event, cardId) {
 
   } else if (cardId === 4) {
     const h3 = document.getElementById('title-tendencia4');
+    const img = document.getElementById('tendencia_imagem4');
 
-    modalImage.src = '/images/trend4.png';
+    modalImage.src = img.src;
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent = 
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';

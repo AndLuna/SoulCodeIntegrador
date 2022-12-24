@@ -200,8 +200,9 @@ color: white;
   background-color: white;
   margin: auto;
   padding: 0;
-  width: 80%;
-  max-width: 600px;
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   animation-name: modal-fade;
   animation-duration: 0.4s;
@@ -228,7 +229,17 @@ color: white;
   background-color: #5cb85c;
   color: white;
 }
-#modal-image{padding: 10px;}
+#modal-image {
+  padding: 10px;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+
+}
+  #modal-image img{
+    max-width: 100%;
+    height: auto;
+}  
 .modal-body {padding: 2px 16px;}
 
 .modal-footer {
