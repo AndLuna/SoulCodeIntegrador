@@ -256,3 +256,46 @@ border-radius: 4px;
   from {opacity: 0;}
   to {opacity: 1;}
 }
+
+
+/* <!-- inicio banner --> */
+section.banner{
+  display: flex;
+  justify-content:center;
+  gap: 10%;
+  background-color:#bc183cd3;
+  height: 145px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.banner h2{
+  /* border: 1px solid blue; */
+height: 30px;
+ margin-top: 55px;
+  font-size: 24px;
+  color: white;
+  font-weight: bolder;
+  
+}
+.banner a{
+  /* border: 1px solid blue;  */
+  height: 50px;
+  margin-top: 36px;
+  height: 30px;
+  width: 320px;
+  font-size: 22px;
+  padding: 20px;
+  background-color: white;
+  text-decoration: none;
+  color:#bc183cd3; 
+  font-weight: bolder;
+  border-radius: 3px;
+}
+
+
+
+
+
+
+

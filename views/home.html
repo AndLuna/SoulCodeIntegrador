@@ -1,267 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soul Sport Center</title>
-    <link rel="shortcut icon" href="../images/sports.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="/style/reset.css">
-    <link rel="stylesheet" href="../style/header.css">
-    <link rel="stylesheet" href="../style/home.css" type="text/css">
-    <link rel="stylesheet" href="/style/carrossel.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soul Sport Center</title>
+  <link rel="shortcut icon" href="../images/sports.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="/style/reset.css">
+  <link rel="stylesheet" href="../style/header.css">
+  <link rel="stylesheet" href="../style/home.css" type="text/css">
+  <link rel="stylesheet" href="/style/carrossel.css">
 </head>
+
 <body>
   <!-- <iframe src="/partials/header.html" frameborder="0" height="150px" width="100%"></iframe> -->
 
   <header class="header scroll">
-    <div class="h-titulo"><p>Soul Sport Center</p></div>
+    <div class="h-titulo">
+      <p>Soul Sport Center</p>
+    </div>
 
     <div class="h-medio">
-        <div class="h-navybar">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="/views/home.html">Home</a></li>
-                <li class="nav-item"><a href="/views/carrinho.html">Produtos</a></li>
-                <li class="nav-item"><a href="../views/about.html">Sobre</a></li>
-                <li class="nav-item"><a href="/views/contact.html">Contato</a></li>
-            </ul>
+      <div class="h-navybar">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="/views/home.html">Home</a></li>
+          <li class="nav-item"><a href="/views/carrinho.html">Produtos</a></li>
+          <li class="nav-item"><a href="../views/about.html">Sobre</a></li>
+          <li class="nav-item"><a href="/views/contact.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <div class="search">
+          <input type="text" placeholder="Procurar">
         </div>
-        <div class="right-side">
-            <div class="search">
-                <input type="text" placeholder="Procurar">
-            </div>
-            <div class="icons-header">
-                <div class="icon-right-site"> 
-                    <a href="#">
-                        <ion-icon name="person-outline"></ion-icon>
-                    </a>
-                   
-                </div>
-            
-                <div class="icon-right-site">
-                    <a href="#">
-                        <ion-icon name="star-outline"></ion-icon>
-                    </a>
-                   
-                </div>
-            
-                <div class="icon-right-site">
-                    <a href="#">
-                        <ion-icon name="cart-outline"></ion-icon>
-                    </a>
-                    
-                </div>
-            </div>
+        <div class="icons-header">
+          <div class="icon-right-site">
+            <a href="#">
+              <ion-icon name="person-outline"></ion-icon>
+            </a>
 
+          </div>
+
+          <div class="icon-right-site">
+            <a href="#">
+              <ion-icon name="star-outline"></ion-icon>
+            </a>
+
+          </div>
+
+          <div class="icon-right-site">
+            <a href="#">
+              <ion-icon name="cart-outline"></ion-icon>
+            </a>
+
+          </div>
         </div>
 
-        
-        </div>
+      </div>
+
+
+    </div>
 
 
     <div class="h-cadastro"><a href="#">
         Entre para o clube
 
-    </a>
+      </a>
     </div>
 
 
-</header>
+  </header>
 
 
 
-    <!-- inicio carrossel -->
-    <div id="carousel">
-        <img src="/images/foot.jpg" class="slide">
-        <img src="/images/hero-bg.jpg" class="slide">
-        <img src="/images/ucd-sport-2016-pageBanner04.jpg" class="slide">
-      </div>
-      <button id="previous"> <img src="/images/arrow-circle-left.svg" alt="">  </button>
-      <button id="next"> <img src="/images/arrow-circle-right.svg" alt=""> </button>
+  <!-- inicio carrossel -->
+  <div id="carousel">
+    <img src="/images/foot.jpg" class="slide">
+    <img src="/images/hero-bg.jpg" class="slide">
+    <img src="/images/ucd-sport-2016-pageBanner04.jpg" class="slide">
+  </div>
+  <button id="previous"> <img src="/images/arrow-circle-left.svg" alt=""> </button>
+  <button id="next"> <img src="/images/arrow-circle-right.svg" alt=""> </button>
 
-      <!-- bolinhas de paginacao -->
-      <div id="pagination">
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-      </div>
-    <!-- fim carrossel -->
+  <!-- bolinhas de paginacao -->
+  <div id="pagination">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+  <!-- fim carrossel -->
 
-<div class="bottom-section">
-   <div class="bottom-title">
-    <p>Seção em destaque</p>
-   </div>
+  <div class="bottom-section">
+    <div class="bottom-title">
+      <p>Seção em destaque</p>
+    </div>
 
     <div class="btn-box">
-        <button class="botnn" id="btn-prev"> <p> < </p>  </button>
-        <button  class="botnn" id="btn-next"> <p> > </p>  </button>
+      <button class="botnn" id="btn-prev">
+        <p>
+          < </p>
+      </button>
+      <button class="botnn" id="btn-next">
+        <p> > </p>
+      </button>
     </div>
-</div>
- 
-
-    <section class="produtos">
-        <!-- Seção de cards de produtos -->
-        <div class="card">
-          <img src="/images/camisa.webp" alt="Imagem do produto 1">
-          <div class="desconto">10% OFF</div>
-          <div class="preco">R$ 100,00</div>
-          <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa necessitatibus </div>
-        </div>
-        <div class="card">
-          <img src="/images/meia.webp" alt="Imagem do produto 2">
-          <div class="desconto">20% OFF</div>
-          <div class="preco">R$ 200,00</div>
-          <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa necessitatibus </div>
-        </div>
-        <div class="card">
-            <img src="/images/tenis.webp" alt="Imagem do produto 3">
-            <div class="desconto">10% OFF</div>
-            <div class="preco">R$ 100,00</div>
-            <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa necessitatibus </div>
-          </div>
-          <div class="card">
-            <img src="/images/tenis.webp" alt="Imagem do produto 4">
-            <div class="desconto">20% OFF</div>
-            <div class="preco">R$ 200,00</div>
-            <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa necessitatibus </div>
-          </div>
-          <div class="card">
-            <img src="/images/meia.webp" alt="Imagem do produto 5">
-            <div class="desconto">20% OFF</div>
-            <div class="preco">R$ 200,00</div>
-            <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa necessitatibus </div>
-          </div>
-          <div class="card">
-            <img src="/images/meia.webp" alt="Imagem do produto 6">
-            <div class="desconto">20% OFF</div>
-            <div class="preco">R$ 200,00</div>
-            <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa necessitatibus </div>
-          </div>
-          <div class="card">
-            <img src="/images/meia.webp" alt="Imagem do produto 7">
-            <div class="desconto">20% OFF</div>
-            <div class="preco">R$ 200,00</div>
-            <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa necessitatibus </div>
-          </div>
-          <div class="card">
-            <img src="/images/meia.webp" alt="Imagem do produto 8">
-            <div class="desconto">20% OFF</div>
-            <div class="preco">R$ 200,00</div>
-            <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa necessitatibus </div>
-          </div>
+  </div>
 
 
-          
-          </section>
+  <section class="produtos">
+    <!-- Seção de cards de produtos -->
+    <div class="card">
+      <img src="/images/camisa.webp" alt="Imagem do produto 1">
+      <div class="desconto">10% OFF</div>
+      <div class="preco">R$ 100,00</div>
+      <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="card">
+      <img src="/images/meia.webp" alt="Imagem do produto 2">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="card">
+      <img src="/images/tenis.webp" alt="Imagem do produto 3">
+      <div class="desconto">10% OFF</div>
+      <div class="preco">R$ 100,00</div>
+      <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="card">
+      <img src="/images/tenis.webp" alt="Imagem do produto 4">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="card">
+      <img src="/images/meia.webp" alt="Imagem do produto 5">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="card">
+      <img src="/images/meia.webp" alt="Imagem do produto 6">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="card">
+      <img src="/images/meia.webp" alt="Imagem do produto 7">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="card">
+      <img src="/images/meia.webp" alt="Imagem do produto 8">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+
+
 
   </section>
-            <!-- inicio seção trends,  o onclick Showmodal faz com que o evento aconteça no card de numero referido -->
-            <section id="trending-section">
-              <h2>Tendencias</h2>
-              
-              <div class="card-container">
 
-                <a class="card-trending" href="#" onclick="showModal(event, 1)">
-                  <img src="/images/trend1.png" alt="Trending 1">
-                  <h3 id="title-tendencia1">suv 1</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </a>
+  </section>
+  <!-- inicio seção trends,  o onclick Showmodal faz com que o evento aconteça no card de numero referido -->
+  <section id="trending-section">
+    <h2>Tendencias</h2>
 
-                <a class="card-trending" href="#" onclick="showModal(event, 2)">
-                  <img src="/images/trend2.png" alt="Trending 2">
-                  <h3 id="title-tendencia2">Tendencia 2</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>      
-               </a>
+    <div class="card-container">
 
-                <a class="card-trending" href="#" onclick="showModal(event, 3)">
-                  <img src="/images/trend3.png" alt="Trending 3">
-                  <h3 id="title-tendencia3">Tendencia 3</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                 </a>
+      <a class="card-trending" href="#" onclick="showModal(event, 1)">
+        <img src="/images/trend1.png" alt="Trending 1">
+        <h3 id="title-tendencia1">suv 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </a>
 
-                <a class="card-trending" href="#" onclick="showModal(event, 4)">
-                  <img src="/images/trend4.png" alt="Trending 4">
-                  <h3 id="title-tendencia4">Tendencia 4</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </a>
+      <a class="card-trending" href="#" onclick="showModal(event, 2)">
+        <img src="/images/trend2.png" alt="Trending 2">
+        <h3 id="title-tendencia2">Tendencia 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </a>
 
-              </div>
-            </section>
-          
+      <a class="card-trending" href="#" onclick="showModal(event, 3)">
+        <img src="/images/trend3.png" alt="Trending 3">
+        <h3 id="title-tendencia3">Tendencia 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </a>
 
-          <!-- inicio janelinha modal -->
+      <a class="card-trending" href="#" onclick="showModal(event, 4)">
+        <img src="/images/trend4.png" alt="Trending 4">
+        <h3 id="title-tendencia4">Tendencia 4</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </a>
 
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="hideModal()">&times;</span>
-    <img id="modal-image" src="trending-1.jpg" alt="Trending 1">
-    <div class="modal-text-separation">
-      <h3 id="modal-title"></h3>
-      <p id="modal-description"></p>
-      <p id="modal-valor"></p>
-      
     </div>
+  </section>
 
+
+  <!-- inicio janelinha modal -->
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="hideModal()">&times;</span>
+      <img id="modal-image" src="trending-1.jpg" alt="Trending 1">
+      <div class="modal-text-separation">
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+        <p id="modal-valor"></p>
+
+      </div>
+
+    </div>
   </div>
-</div>
 
-    <!-- <div class="chamada">
-        <h1>E, ai já escolheu o que você vai levar?</h1>
-        <h2>Dá uma olhadinha nos produtos abaixo!</h2>
-    </div>       
-    
-    <section class="divpai">
-    <div class="container1" href="#">
-        <img src="https://a-static.mlcdn.com.br/800x560/mini-bola-de-futebol-adidas-al-rihla-pro/magazineluiza/234899500/65cced9858a02a1d0557ec82022634bc.jpg" alt="Foto bola" width="100px">
-        <h1>Bola de futebol</h1>
-        <p>Mini Bola de Futebol Adidas Al Rihla Pro
-        O futebol aproxima corações, a bola é só o começo, o resto da sua jornada no futebol ainda vai ser escrita. As cores trazem a emoção, as equipes, os jogos. A Adidas trouxe a bola da copa do mundo Fifa Catar 2022 Al Rihla Pro mini para você já começar a se aquecer, uma bola especial para um jogo mais que especial, é o que o mundo inteiro estava esperando. </p>
-        
-    
-    </div>
-    <div class="container1" href="#">
-        <img src="https://a-static.mlcdn.com.br/800x560/mini-bola-de-futebol-adidas-al-rihla-pro/magazineluiza/234899500/65cced9858a02a1d0557ec82022634bc.jpg" alt="Foto bola" width="100px">
-        <h1>Bola de futebol</h1>
-        <p>Mini Bola de Futebol Adidas Al Rihla Pro
-        O futebol aproxima corações, a bola é só o começo, o resto da sua jornada no futebol ainda vai ser escrita. As cores trazem a emoção, as equipes, os jogos. A Adidas trouxe a bola da copa do mundo Fifa Catar 2022 Al Rihla Pro mini para você já começar a se aquecer, uma bola especial para um jogo mais que especial, é o que o mundo inteiro estava esperando. </p>
-        
-    
-    </div>
-        
-    <div class="container1" href="#">
-        <img src="https://a-static.mlcdn.com.br/800x560/mini-bola-de-futebol-adidas-al-rihla-pro/magazineluiza/234899500/65cced9858a02a1d0557ec82022634bc.jpg" alt="Foto bola" width="100px">
-        <h1>Bola de futebol</h1>
-        <p>Mini Bola de Futebol Adidas Al Rihla Pro
-        O futebol aproxima corações, a bola é só o começo, o resto da sua jornada no futebol ainda vai ser escrita. As cores trazem a emoção, as equipes, os jogos. A Adidas trouxe a bola da copa do mundo Fifa Catar 2022 Al Rihla Pro mini para você já começar a se aquecer, uma bola especial para um jogo mais que especial, é o que o mundo inteiro estava esperando. </p>
-        
-    
-    </div>
-        
+    <!-- inicio banner  -->
 
-    
-    <div class="container1" href="#">
-        <img src="https://a-static.mlcdn.com.br/800x560/mini-bola-de-futebol-adidas-al-rihla-pro/magazineluiza/234899500/65cced9858a02a1d0557ec82022634bc.jpg" alt="Foto bola" width="100px">
-        <h1>Bola de futebol</h1>
-        <p>Mini Bola de Futebol Adidas Al Rihla Pro
-        O futebol aproxima corações, a bola é só o começo, o resto da sua jornada no futebol ainda vai ser escrita. As cores trazem a emoção, as equipes, os jogos. A Adidas trouxe a bola da copa do mundo Fifa Catar 2022 Al Rihla Pro mini para você já começar a se aquecer, uma bola especial para um jogo mais que especial, é o que o mundo inteiro estava esperando. </p>
-        
-    
-    </div>
+  <section class="banner">
+    <h2>Entre para o Clube e ganhe 20% OFF!</h2>
+  
+      <a href="#">
+        Cadastre-se gratuiamente
+      </a>
+ 
+  </section>
+  
 
 
-</section> -->
-<!-- header  -->
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <!-- ---- nao mexer abaixo -->
-    <script src="/js/header.js"></script>
-    <script src="/js/home.js"></script>
-<script src="/js/carrossel.js"></script>
-<iframe src="/partials/footer.html" frameborder="0" height="150px" width="100%"></iframe>
-    <!-- <iframe src="/partials/footer.html" frameborder="0" height="150px" width="100%"></iframe> -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- header  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- ---- nao mexer abaixo -->
+  <script src="/js/header.js"></script>
+  <script src="/js/home.js"></script>
+  <script src="/js/carrossel.js"></script>
+  <iframe src="/partials/footer.html" frameborder="0" height="150px" width="100%"></iframe>
+  <!-- <iframe src="/partials/footer.html" frameborder="0" height="150px" width="100%"></iframe> -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
