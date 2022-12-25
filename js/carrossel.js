@@ -18,7 +18,7 @@ function goToSlide(n) {
   slides[currentSlide].style.left = '0';
 }
 // funcao que seta intervalo do passamento automatico
- setInterval(nextSlide, 3000);
+ setInterval(nextSlide, 3700);
 
 // paginacao pelos  botoess
 var nextButton = document.querySelector('#next');
