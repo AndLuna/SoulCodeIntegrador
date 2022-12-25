@@ -1,76 +1,52 @@
-#carousel {
-    /* border: 1px solid red; */
-    width: 99%;
-    height: 600px;
-    overflow: hidden;
-    position: relative;
-    margin-left: 10px;
-    margin-top: -13px;
-  }
-  
-  .slide {
-    /* border: 1px solid blue; */
-    object-fit: contain;
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+.Coluna1{
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Coluna2{
+  display: inline-block;
+}
+
+.Coluna3{
+  display: inline-block;
+}
+
+.Coluna4{
+  display: inline-block;
+}
 
 
-  /* <------- botoes --------->  */
-  button {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
+.Fundo{
+  background-color: #ECEEF1;
+}
 
-  #previous {
-    position: absolute;
-    bottom: 410px;
-    left: 20px;
-  
-  }
-  
-  #next {
-    position: absolute;
-    bottom: 410px;
-    right: 35px;
-    
-  }
-  #previous img{
-    width: 50px;
-    height: 50px;
-  }
+.Fundo p{
+  background-color: white;
+  width: max-content;
+}
 
-  #next img{
-    width: 50px;
-    height: 50px;
-  }
+.Fundo:hover p{
+  position: relative;
+  bottom: 10px;
+}
 
-/* <------- paginacao --------->  */
-  #pagination {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: gray;
-    margin: 0 5px;
-    margin-top: 5px;
-  }
+.Itens{
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  left: 75px;
+}
 
+.Itens img{
+  width: 275px;
+  height: 275px;
+}
 
+.Itens p{
+  position: relative;
+  left: 10px;
+}
 
-.text{
-  width: 500px;
-  margin: a;
+.Itens:hover{
+  border: 1px solid black;
 }

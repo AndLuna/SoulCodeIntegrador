@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soul Sport Center</title>
+  <link rel="shortcut icon" href="../images/sports.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="/style/reset.css">
+  <link rel="stylesheet" href="../style/header.css">
+  <link rel="stylesheet" href="../style/home.css" type="text/css">
+  <link rel="stylesheet" href="/style/carrossel.css">
+  <link rel="stylesheet" href="../style/categorias.css">
+</head>
+
+<body>
+  <!-- <iframe src="/partials/header.html" frameborder="0" height="150px" width="100%"></iframe> -->
+
+  <header class="header">
+    <div class="h-titulo"><p>Soul Sport Center</p></div>
+
+    <div class="h-medio">
+        <div class="h-navybar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="/views/home.html">Home</a></li>
+                <li class="nav-item"><a href="/views/carrinho.html">Produtos</a></li>
+                <li class="nav-item"><a href="../views/about.html">Sobre</a></li>
+                <li class="nav-item"><a href="/views/contact.html">Contato</a></li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <div class="search">
+                <input type="text" placeholder="Procurar">
+            </div>
+
+            <div class="icons-header">
+                <div class="icon-right-site"> 
+                    <a href="#"> <ion-icon name="person-outline"></ion-icon>  </a>
+                    </div>
+            
+                <div class="icon-right-site">
+                    <a href="#"><ion-icon name="star-outline"></ion-icon> </a>
+                   </div>
+            
+                <div class="icon-right-site">
+                    <a href="#"><ion-icon name="cart-outline"></ion-icon> </a>                
+                </div>
+            </div>
+        </div>      
+        </div>
+
+    <div class="h-cadastro">
+      <a href="#">Entre para o clube</a>
+    </div>
+</header>  
+
+
+
+  <!-- inicio carrossel -->
+  <div id="carousel">
+    <img src="/images/foot.jpg" class="slide">
+    <img src="/images/hero-bg.jpg" class="slide">
+    <img src="/images/ucd-sport-2016-pageBanner04.jpg" class="slide">
+  </div>
+  <button id="previous"> <img src="/images/arrow-circle-left.svg" alt=""> </button>
+  <button id="next"> <img src="/images/arrow-circle-right.svg" alt=""> </button>
+
+  <!-- bolinhas de paginacao -->
+  <div id="pagination">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+  <!-- //                   Carrossel Fim            -->
+
+
+  <!-- //                   Tendencias start            -->
+  <section id="trending-section">
+    <h2>Tendencias</h2>
+
+    <div class="card-container">
+
+      <a class="card-trending" href="#" onclick="showModal(event, 1)">
+        <img src="/images/trend05.webp" alt="Trending 1" id="tendencia_imagem1">
+        <h3 id="title-tendencia1">suv 1</h3>
+        <p>Lorem consectetur adipisicing elit.</p>
+      </a>
+
+      <a class="card-trending" href="#" onclick="showModal(event, 2)">
+        <img src="/images/trend7.png" alt="Trending 2" id="tendencia_imagem2">
+        <h3 id="title-tendencia2">Tendencia 2</h3>
+        <p>Lorem consectetur adipisicing elit.</p>
+      </a>
+
+      <a class="card-trending " href="#" onclick="showModal(event, 3)">
+        <img src="/images/trendBr.jpeg" alt="Trending 3"  id="tendencia_imagem3">
+        <h3 id="title-tendencia3">Tendencia 3</h3>
+        <p>Lorem consectetur adipisicing elit.</p>
+      </a>
+
+      <a class="card-trending" href="#" onclick="showModal(event, 4)">
+        <img src="/images/trend6.jpg" alt="Trending 4"  id="tendencia_imagem4">
+        <h3 id="title-tendencia4">Tendencia 4</h3>
+        <p>Lorem consectetur adipisicing elit.</p>
+      </a>
+
+    </div>
+  </section>
+  <!-- //                   Tendencias Fim            -->
+
+  <!-- //                   Modal start            -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="hideModal()">&times;</span>
+      <img id="modal-image" src="trending-1.jpg" alt="Trending 1">
+      <div class="modal-text-separation">
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+        <p id="modal-valor"></p>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- //                   Modal Fim            -->
+
+
+  <!-- //                   Paginacao destaque start            -->
+  <div class="destaque_section">
+    <div class="destaque_title">
+      <p>Seção em destaque</p>
+    </div>
+
+    <div class="btn-box">
+      <button class="botnn" id="btn-prev">
+        <p>
+          < </p>
+      </button>
+      <button class="botnn" id="btn-next">
+        <p> > </p>
+      </button>
+    </div>
+  </div>
+
+  <!-- //                   Paginacao destaque fim             -->
+
+
+  <!-- //                   Destaque start            -->
+  <section class="produtos">
+
+    <div class="destaque-card">
+      <img src="/images/camisa.webp" alt="Imagem do produto 1">
+      <div class="desconto">10% OFF</div>
+      <div class="preco">R$ 100,00</div>
+      <div class="descricao">Lorem, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="destaque-card">
+      <img src="/images/meia.webp" alt="Imagem do produto 2">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="destaque-card">
+      <img src="/images/tenis.webp" alt="Imagem do produto 3">
+      <div class="desconto">10% OFF</div>
+      <div class="preco">R$ 100,00</div>
+      <div class="descricao">Lorem, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="destaque-card">
+      <img src="/images/tenis.webp" alt="Imagem do produto 4">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="destaque-card">
+      <img src="/images/meia.webp" alt="Imagem do produto 5">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="destaque-card">
+      <img src="/images/meia.webp" alt="Imagem do produto 6">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="destaque-card">
+      <img src="/images/meia.webp" alt="Imagem do produto 7">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="destaque-card">
+      <img src="/images/meia.webp" alt="Imagem do produto 8">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="destaque-card">
+      <img src="/images/tenis.webp" alt="Imagem do produto 10">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+    <div class="destaque-card">
+      <img src="/images/tenis.webp" alt="Imagem do produto 9">
+      <div class="desconto">20% OFF</div>
+      <div class="preco">R$ 200,00</div>
+      <div class="descricao">Lorem, consectetur adipisicing elit. Odio nisi temporibus nihil culpa
+        necessitatibus </div>
+    </div>
+  </section>
+
+  <!-- //                   Destaque fim            -->
+  <!--        inicio banner  -->
+
+  <section class="banner">
+    <h2>Entre para o Clube e ganhe 20% OFF!</h2>
+
+    <a href="#">
+      Cadastre-se gratuiamente
+    </a>
+
+  </section>
+  <!--         fim banner  -->
+
+
+  <!-- //                   Categorias start            -->
+  <h1 class="categorias_title">Categorias</h1>
+
+
+  <section class="cardes">
+
+    <div class="cards">
+      <div class="card novidade1">
+        <div class="card-content">
+          <h2 class="card-title">Calçados</h2>
+          <p class="card-body">
+            O melhor {item} para o seu desempenho.
+          </p>
+          <a href="#" class="buttom bskills">Confira aqui</a>
+        </div>
+      </div>
+
+      <div class="card novidade2">
+        <div class="card-content">
+          <h2 class="card-title">Roupas</h2>
+          <p class="card-body">
+            O melhor {item} para o seu desempenho.
+          </p>
+          <a href="#" class="buttom bskills">Confira aqui</a>
+        </div>
+      </div>
+
+      <div class="card novidade3">
+        <div class="card-content">
+          <h2 class="card-title">Acessorios</h2>
+          <p class="card-body">
+            O melhor {item} para o seu desempenho.
+          </p>
+          <a href="#" class="buttom bskills">Confira aqui</a>
+        </div>
+      </div>
+
+      <div class="card novidade4">
+        <div class="card-content">
+          <h2 class="card-title">Serviços</h2>
+          <p class="card-body">
+            O melhor {item} para o seu desempenho.
+          </p>
+          <a href="#" class="buttom bskills">Confira aqui</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- header  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- ---- nao mexer abaixo -->
+  <script src="/js/header.js"></script>
+  <script src="/js/home.js"></script>
+  <script src="/js/carrossel.js"></script>
+  <iframe src="/partials/footer.html" frameborder="0" height="150px" width="100%"></iframe>
+  <!-- <iframe src="/partials/footer.html" frameborder="0" height="150px" width="100%"></iframe> -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -5,7 +5,6 @@
     overflow: hidden;
     position: relative;
     margin-left: 10px;
-    margin-top: -13px;
   }
   
  
@@ -37,6 +36,7 @@
     position: absolute;
     bottom: 410px;
     left: 20px;
+ 
   
   }
   
@@ -44,16 +44,20 @@
     position: absolute;
     bottom: 410px;
     right: 35px;
+   
     
   }
   #previous img{
     width: 50px;
     height: 50px;
+    display: none;
   }
 
   #next img{
     width: 50px;
     height: 50px;
+    display: none;
+
   }
 
 /* <------- paginacao --------->  */
@@ -63,13 +67,14 @@
   }
   
   .dot {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     background-color: gray;
-    margin: 0 5px;
+    margin: 0 3px;
     margin-top: 5px;
   }
+  
 
 
 
