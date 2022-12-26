@@ -422,5 +422,11 @@ color: white;
 }
 
 
+/*                          Banner causa social */
 
+#bannerSocial img{
+height: 300px;
+width: 100%;
+margin-bottom: 30px;
+}
 
