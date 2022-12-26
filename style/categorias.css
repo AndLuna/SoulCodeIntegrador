@@ -36,13 +36,13 @@ margin-top: 0px;
 
 }
 
-/* ====== Img cards */
+/* -- -- -- -- -- -- -- -- -- -- -- Img cards */
 .novidade1 { background-image: url(../images/prod1.jpg);}
 .novidade2 { background-image: url(../images/prod2.jpg);}
 .novidade3 { background-image: url(../images/prod3.jpg);}
 .novidade4 { background-image: url(../images/prod4.jpg);}
 
-/* ====== end img cards  */
+/* -- -- -- -- -- -- -- -- -- -- --   */
 
 .categorias_title{
     font-size: 24px;
@@ -155,16 +155,16 @@ margin-top: 0px;
 
 .buttom:hover, .button:focus{ background-color: #c91d42;;}
 
-/* .card-body {
+.card-body {
     width: 300px;
-} */
+} 
 
 
-/* @media (max-width: 899px){
+ @media (max-width: 899px){
 .cardes, .cards, .card{
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     height: 500px;
 }
-} */
+}

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/sports.png" type="image/x-icon">
+
     <link rel="stylesheet" href="/style/reset.css">
     <link rel="stylesheet" href="../style/carrinho.css">
     <link rel="stylesheet" href="../style/header.css">
@@ -49,9 +51,18 @@
     </div>
 </header>   
 
+<section id="carrinho_produtos">
+  <div id="filtros">
+    <button class="filtro botao-filtro" id="todos" onclick="filtrarProdutos(this)" data-categoria="todos">Todos</button>
+    <button class="filtro botao-filtro" id="todos" onclick="filtrarProdutos(this)"  data-categoria="blusas">Blusas</button>
+    <button class="filtro botao-filtro" id="todos" onclick="filtrarProdutos(this)"  data-categoria="calçados">Calçados</button>
+    <button class="filtro botao-filtro" id="todos" onclick="filtrarProdutos(this)"  data-categoria="calças">Calças</button>
+  </div>
+  
+  
     <div class="Coluna1">
       
-      <div class="Itens">
+      <div class="Itens" data-categoria="blusas">
         <div class="Fundo">
           <img src="../images/camisa.webp" alt="Camiseta Adicolor Essentials">
           <p>R$ 89,99</p>
@@ -59,7 +70,7 @@
         <p>Camiseta Adicolor Essentials</p>
       </div>
 
-      <div class="Itens">
+      <div class="Itens" data-categoria="blusas">
         <div class="Fundo">
           <img src="../images/camisa2.webp" alt="Camiseta Esportiva">
           <p>R$ 119,99</p>
@@ -67,7 +78,7 @@
         <p>Camiseta Esportiva</p>
       </div>
 
-      <div class="Itens">
+      <div class="Itens" data-categoria="blusas">
         <div class="Fundo">
           <img src="../images/camisa3.webp" alt="Camiseta Essentials">
           <p>R$ 99,99</p>
@@ -75,7 +86,7 @@
         <p>Camiseta Essentials</p>
       </div>
 
-      <div class="Itens">
+      <div class="Itens" data-categoria="blusas">
         <div class="Fundo">
           <img src="../images/jaqueta.jpg" alt="">
           <p>R$ 199,99</p>
@@ -87,7 +98,7 @@
 
     <div class="Coluna2">
       
-      <div class="Itens">
+      <div class="Itens" data-categoria="calças">
         <div class="Fundo">
           <img src="../images/calca1.webp" alt="Calças Pretas Afuniladas">
           <p>R$ 199,99</p>
@@ -95,7 +106,7 @@
         <p>Calças Pretas Afuniladas</p>
       </div>
 
-      <div class="Itens">
+      <div class="Itens" data-categoria="calças">
         <div class="Fundo">
           <img src="../images/calca2.webp" alt="Calças Pretas Afuniladas Cinza">
           <p>R$ 199,99</p>
@@ -103,7 +114,7 @@
         <p>Calças Pretas Afuniladas Cinza</p>
       </div>
 
-      <div class="Itens">
+      <div class="Itens" data-categoria="calças">
         <div class="Fundo">
           <img src="../images/calca3.webp" alt="Calças Adidas">
           <p>R$ 149,99</p>
@@ -111,7 +122,7 @@
         <p>Calças Adidas</p>
       </div>
 
-      <div class="Itens">
+      <div class="Itens"  data-categoria="calças">
         <div class="Fundo">
           <img src="../images/calca4.webp" alt="Calça Beand Love">
           <p>R$ 249,99</p>
@@ -123,7 +134,7 @@
 
     <div class="Coluna3">
       
-      <div class="Itens">
+      <div class="Itens"  data-categoria="calçados">
         <div class="Fundo">
           <img src="../images/tenis2.webp" alt="Stan Smith Her Vegan">
           <p>R$ 499,99</p>
@@ -131,7 +142,7 @@
         <p>Stan Smith Her Vegan</p>
       </div>
 
-      <div class="Itens">
+      <div class="Itens"  data-categoria="calçados">
         <div class="Fundo">
           <img src="../images/tenis1.webp" alt="Stan Smith Recon">
           <p>R$ 799,99</p>
@@ -139,7 +150,7 @@
         <p>Stan Smith Recon</p>
       </div>
 
-      <div class="Itens">
+      <div class="Itens"  data-categoria="calçados">
         <div class="Fundo">
           <img src="../images/chuteira.webp" alt="Tenis Superstar">
           <p>R$ 499,99</p>
@@ -147,7 +158,7 @@
         <p>Tenis Superstar</p>
       </div>
 
-      <div class="Itens">
+      <div class="Itens"  data-categoria="calçados">
         <div class="Fundo">
           <img src="../images/tenis.webp" alt="Tenis Superstar">
           <p>R$ 499,99</p>
@@ -156,8 +167,11 @@
       </div>
 
     </div>
+  </section>
 
     <iframe src="../partials/footer.html" frameborder="0" height="150px" width="100%"></iframe>
+    <script src="../js/categorias.js"></script>
+    <script src="../js/carrinho.js"></script>
 </body>
     
 </html>

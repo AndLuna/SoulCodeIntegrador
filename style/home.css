@@ -10,111 +10,114 @@
     
 }*/
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Clicker+Script&family=Kanit:wght@100&family=Poppins:wght@200;300;500;600;700&display=swap');
-body{
-  font-family: 'Chivo Mono', monospace;
-}
+
+body { font-family: 'Chivo Mono', monospace;}
 
 
-/* seção de destaque */
-.produtos{
-    display: flex;
-    justify-content: center;
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- seção de destaque */
+.produtos {
+  display: flex;
+  justify-content: center;
 }
+
 .destaque-card {
-
-
-    display: inline-block; /* Exibe os cards lado a lado */
-    width: 20%; 
-    height: 400px; 
-    background-color: #f1f1f1; 
-    margin: 10px;
-    text-align: center; 
-    /* border: 1px solid red; */
-   
- 
-  }
-  
-  /* Define o estilo para as imagens dos cards */
-  .destaque-card img {
-    width: 80%; 
-    height: 60%; 
-  }
-  
-  /* Define o estilo para o texto dos cards */
-  .destaque-card .desconto {
-    font-size: 16px; 
-    font-weight: bold;
-    color: #ffffff; 
-    margin: 10px;
-    margin-left: 10px;
-    border: 1px solid red;
-    width: 80px;
-    background-color: red;
-  }
-  
-  .destaque-card .preco {
-    font-size: 16px; 
-    color: #000000; 
-    margin: 10px;
-    margin-left: -120px;
-  }
-  
-  .destaque-card .descricao {
-    font-size: 14px; 
-    color: #333333; 
-    padding: 0px 10px 10px 10px;
-  }
-
-   /* Destaque title */
-.destaque_section{
-    display: flex;
-    justify-content: space-between;
-    width: 650px;
-    margin: 30px 0px 10px 0px;
-    margin-left: 42.6%;
-
-    /* border: 1px solid red; */
-    
+  display: inline-block;
+  width: 20%;
+  height: 400px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  text-align: center;
+  /* border: 1px solid red; */
 }
-.destaque_title{
-    width: 400px;
-    font-weight: bolder;
-    
+
+/* Define o estilo para as imagens dos cards */
+.destaque-card img {
+  width: 80%;
+  height: 60%;
 }
-.destaque_title p{
-    margin-top: 16px;
-    font-size: 24px;
-    
+
+/* Define o estilo para o texto dos cards */
+.destaque-card .desconto {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 10px;
+  margin-left: 10px;
+  border: 1px solid red;
+  width: 80px;
+  background-color: red;
+}
+
+.destaque-card .preco {
+  font-size: 16px;
+  color: #000000;
+  margin: 10px;
+  margin-left: -120px;
+}
+
+.destaque-card .descricao {
+  font-size: 14px;
+  color: #333333;
+  padding: 0px 10px 10px 10px;
+}
+
+/* Destaque title */
+.destaque_section {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  margin: 30px 0px 10px 0px;
+  margin-left: 42.6%;
+
+  /* border: 1px solid red; */
+
+}
+
+.destaque_title {
+  width: 400px;
+  font-weight: bolder;
+
+}
+
+.destaque_title p {
+  margin-top: 16px;
+  font-size: 24px;
+
 }
 
 /* Define o estilo para os botões */
-.btn-box{
-    width: 110px;
-    height: 50px;
-    margin-bottom: -10px;
-   display: flex;
-   justify-content: center;
-   margin-right: -30px;
+.btn-box {
+  width: 110px;
+  height: 50px;
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: center;
+  margin-right: -30px;
 }
-button{
-    width: 50px;
-    height: 50px;
-    font-size: 14px;
-    margin-left: -20px;
-    font-weight: 900; 
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 14px;
+  margin-left: -20px;
+  font-weight: 900;
 }
-#btn-prev, #btn-next{
+
+#btn-prev,
+#btn-next {
   background-color: rgba(243, 242, 242, 0.685);
   color: rgb(0, 0, 0);
- margin-left: 5px;
- width: 25px;
- height: 25px;
- margin-top: 20px;
- margin-left: 15px;
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 15px;
 }
-#btn-prev:hover, #btn-next:hover{
-background-color: #000;
-color: white;
+
+#btn-prev:hover,
+#btn-next:hover {
+  background-color: #000;
+  color: white;
 }
 
 
@@ -122,61 +125,61 @@ color: white;
 
 
 
-/*     tendencias      */
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  tendencias      */
 
 #trending-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
-  
-  #trending-section h2 {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 1em;
-  }
-  
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .card-trending {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    width: 300px;
-    height: 510px;
-    border: 1px solid lightgray;
-    margin: 1em;
-  }
-  
-  .card-trending img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    
-  }
-  
-  .card-trending h3 {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 0.5em 0;
-  }
-  
-  .card-trending p {
-    font-size: 0.9em;
-    text-align: center;
-    
-  }
-  
-  
-  
-  /* inicio janela modal */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#trending-section h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-trending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  width: 300px;
+  height: 510px;
+  border: 1px solid lightgray;
+  margin: 1em;
+}
+
+.card-trending img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+
+}
+
+.card-trending h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
+.card-trending p {
+  font-size: 0.9em;
+  text-align: center;
+
+}
+
+
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  janela modal */
 
 
 .modal {
@@ -188,8 +191,8 @@ color: white;
   width: 100%;
   height: 110%;
   overflow: auto;
-  background-color: rgba(0,0,0,0.4);
-  
+  background-color: rgba(0, 0, 0, 0.4);
+
 }
 
 .modal-content {
@@ -203,7 +206,7 @@ color: white;
   width: 100%;
   max-width: 800px;
   height: 450px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: modal-fade;
   animation-duration: 0.4s;
   display: flex;
@@ -218,7 +221,8 @@ color: white;
   font-weight: bold;
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -229,6 +233,7 @@ color: white;
   background-color: #5cb85c;
   color: white;
 }
+
 #modal-image {
   padding: 10px;
   width: 400px;
@@ -236,18 +241,21 @@ color: white;
   height: auto;
 
 }
-  #modal-image img{
-    max-width: 100%;
-    height: auto;
-}  
-.modal-body {padding: 2px 16px;}
+
+#modal-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-body {  padding: 2px 16px;}
 
 .modal-footer {
   padding: 2px 16px;
   background-color: #5cb85c;
   color: white;
 }
-#modal-title{
+
+#modal-title {
   /* border: 1px solid red; */
   font-weight: bold;
   font-size: 24px;
@@ -255,17 +263,29 @@ color: white;
   margin-left: 9.6px;
 }
 
-#modal-description{ margin-top: 50px; padding: 10px;}
+#modal-description {
+  margin-top: 50px;
+  padding: 10px;
+}
 
-#modal-valor{ 
+#modal-valor, #modal-more {
   margin-left: 8px;
   margin-top: 30px;
-  width: 80px;
-color: white;
-background-color: rgb(51, 79, 204);;
-height: 22px;
-padding: 5px 15px 0px 20px;
-border-radius: 4px;
+  width: 130px;
+  color: white;
+  background-color: #C8405E;
+  height: 22px;
+  padding: 5px 1px 20px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.modal-text-separation p{
+  text-decoration: none;
+}
+
+.modal-text-separation a{
+  text-decoration: none;
+  color: white;
 }
 
 /* #modal-valor{
@@ -276,33 +296,39 @@ border-radius: 4px;
 
 
 @keyframes modal-fade {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 
-/* <!--                            inicio banner --> */
-section.banner{
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  banner --> */
+section.banner {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   gap: 10%;
-  background-color:#bc183cd3;
+  background-color: #bc183cd3;
   height: 145px;
   margin-top: 50px;
   margin-bottom: 20px;
   width: 100.0%;
 }
 
-.banner h2{
+.banner h2 {
   /* border: 1px solid blue; */
-height: 30px;
- margin-top: 55px;
+  height: 30px;
+  margin-top: 55px;
   font-size: 24px;
   color: white;
   font-weight: bolder;
-  
+
 }
-.banner a{
+
+.banner a {
   /* border: 1px solid blue;  */
   height: 50px;
   margin-top: 40px;
@@ -312,21 +338,21 @@ height: 30px;
   padding: 18px 20px 30px 20px;
   background-color: white;
   text-decoration: none;
-  color:#bc183cd3; 
+  color: #bc183cd3;
   font-weight: bolder;
   border-radius: 3px;
 }
 
 
-/*                            secao de carrosel produtos novidades */
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- carrosel produtos novidades */
 
 
 .produtos2 {
   display: flex;
   justify-content: space-around;
-width: 99%;
-height: 530px;
-margin-left: -50px;
+  width: 99%;
+  height: 530px;
+  margin-left: -50px;
 }
 
 .card2 {
@@ -353,7 +379,6 @@ margin-left: -50px;
   color: #ffffff;
   margin: 10px;
   margin-left: 10px;
-  
   width: 80px;
   background-color: red;
 }
@@ -392,35 +417,43 @@ margin-left: -50px;
 }
 
 /* Define o estilo para os botões */
-.btn-box2{
+.btn-box2 {
   width: 110px;
   height: 50px;
   margin-bottom: -10px;
- display: flex;
- justify-content: center;
- margin-right: -30px;
+  display: flex;
+  justify-content: center;
+  margin-right: -30px;
 }
-button{
+
+button {
   width: 50px;
   height: 50px;
   font-size: 14px;
   margin-left: -20px;
-  font-weight: 900; 
-}
-#btn-prev2, #btn-next2{
-background-color: rgba(243, 242, 242, 0.685);
-color: rgb(0, 0, 0);
-margin-left: 5px;
-width: 25px;
-height: 25px;
-margin-top: 20px;
-margin-left: 15px;
-}
-#btn-prev2:hover, #btn-next2:hover{
-background-color: #000;
-color: white;
+  font-weight: 900;
 }
 
+#btn-prev2, #btn-next2 {
+  background-color: rgba(243, 242, 242, 0.685);
+  color: rgb(0, 0, 0);
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#btn-prev2:hover, #btn-next2:hover {
+   background-color: #000; 
+   color: white;
+  }
 
 
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- Banner causa social */
 
+#bannerSocial img {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 30px;
+}

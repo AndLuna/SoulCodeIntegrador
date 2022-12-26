@@ -1,18 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Clicker+Script&family=Kanit:wght@100&family=Poppins:wght@200;300;500;600;700&display=swap');
+
+#carrinho_produtos{
+  margin-bottom: 30px;
+  font-family: 'Chivo Mono', monospace;
+}
 .Coluna1{
   display: inline-block;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 20px;
 }
 
 .Coluna2{
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 .Coluna3{
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 .Coluna4{
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 
@@ -35,6 +44,7 @@
   display: inline-block;
   margin: 5px;
   left: 75px;
+
 }
 
 .Itens img{
@@ -50,3 +60,31 @@
 .Itens:hover{
   border: 1px solid black;
 }
+
+
+
+/*                         estilizando os botoes START */
+
+.botao-filtro {
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.botao-filtro:hover {  background-color: #C8405E;}
+
+.botao-filtro:active { background-color: #990726;}
+
+.botao-filtro.ativo {
+  background-color: #2ecc71;
+  color: white;
+}
+/*                         estilizando os botoes END  */

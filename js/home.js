@@ -37,7 +37,7 @@
 
 
 
-// janela modal
+//                                         janela modal
 
 // criei as variaveis que eu iria utilizar pegando os valores pelo ID
 // depois atribuir em cada ifElse suas caracteristicas
@@ -55,6 +55,7 @@ function showModal(event, cardId) {
   const modalDescription = document.getElementById('modal-description');
   const modalImage = document.getElementById('modal-image');
   const modalValor = document.getElementById('modal-valor');
+  const modalMore = document.getElementById('modal-more')
   
   if (cardId === 1) {
     const h3 = document.getElementById('title-tendencia1');
@@ -63,38 +64,48 @@ function showModal(event, cardId) {
     modalImage.src = img.src;
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent =
-     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
-    modalValor.textContent  = '299,99R$'
+     'O novo casaco SoulCoder SF.T7 vem sendo cada vez mais utilizado em todos os lugares e isso é devido a nova tenologia inserida nesse produto, a novo casaco Soul Coder SF.T7 conta com uma moderna tecnologia que permite que você possa recarregar seu smart phone ao coloca-lo no bolso, a tecnologia funciona por indussão, ou seja, basta jogar seu aparelho no bolso e ficar despreocupado';
+    // modalValor.textContent  = '299,99R$';
+    modalMore.innerHTML = '<a href="../trendings/trend1.html">Saiba mais</a>';
  
-  } else if (cardId === 2) {
+  } 
+  
+  else if (cardId === 2) {
     const h3 = document.getElementById('title-tendencia2');
     const img = document.getElementById('tendencia_imagem2');
 
     modalImage.src = img.src;
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent = 
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
-    modalValor.textContent  = '199,99R$'
+    'O time do Atlanta Hawks anunciou um uniforme que homenageia a luta pelos direitos civis de Dr. Martin Luther King Jr. Será a primeira vez na história da NBA que as iniciais de uma pessoa estampam a parte frontal de um uniforme de jogo oficial de uma franquia.';
+    // modalValor.textContent  = '199,99R$'
+    modalMore.innerHTML = '<a href="../trendings/trend2.html">Saiba mais</a>';
 
-  } else if (cardId === 3) {
+  } 
+  
+  else if (cardId === 3) {
     const h3 = document.getElementById('title-tendencia3');
     const img = document.getElementById('tendencia_imagem3');
 
     modalImage.src = img.src;
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent = 
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
-    modalValor.textContent  = '99,99R$'
+    '';
+    // modalValor.textContent  = '99,99R$'
+    modalMore.innerHTML = '<a href="../trendings/trend3.html">Saiba mais</a>';
 
-  } else if (cardId === 4) {
+  }
+  
+  else if (cardId === 4) {
     const h3 = document.getElementById('title-tendencia4');
     const img = document.getElementById('tendencia_imagem4');
 
     modalImage.src = img.src;
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent = 
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
-    modalValor.textContent  = '49,99R$'
+    'Contando com uma moderna e aprimorada tecnologia o novo tenis SportCoder garante conforto seja em sua caminhada matinal ou durante de sua corrida de alta intensidade. Contando com uma moderna e aprimorada tecnologia o novo tenis SportCoder garante conforto seja em sua caminhada matinal ou durante de sua corrida de alta intensidade';
+    // modalValor.textContent  = '499,99R$'
+    modalMore.innerHTML = '<a href="../trendings/trend4.html">Saiba mais</a>';
   }
 
   //tornando o modal visivel
@@ -115,6 +126,10 @@ window.addEventListener('click', function (event) {
     modal.style.display = 'none';
   }
 });
+
+
+// testando botao categoria
+
 
 
 // dot de paginacao
