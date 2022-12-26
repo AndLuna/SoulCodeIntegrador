@@ -37,7 +37,7 @@
 
 
 
-// janela modal
+//                                         janela modal
 
 // criei as variaveis que eu iria utilizar pegando os valores pelo ID
 // depois atribuir em cada ifElse suas caracteristicas
@@ -63,7 +63,7 @@ function showModal(event, cardId) {
     modalImage.src = img.src;
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent =
-     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim quibusdam molestiae aut nisi, voluptate libero accusamus neque numquam sed reiciendis perspiciatis dolor sunt ullam nihil. Facilis saepe aspernatur eveniet!';
+     'O novo casaco SoulCoder SF.T7 vem sendo cada vez mais utilizado em todos os lugares e isso é devido a nova tenologia inserida nesse produto, a novo casaco Soul Coder SF.T7 conta com uma moderna tecnologia que permite que você possa recarregar seu smart phone ao coloca-lo no bolso, a tecnologia funciona por indussão, ou seja, basta jogar seu aparelho no bolso e ficar despreocupado';
     modalValor.textContent  = '299,99R$'
  
   } else if (cardId === 2) {
