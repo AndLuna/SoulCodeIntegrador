@@ -19,46 +19,48 @@
   <!-- <iframe src="/partials/header.html" frameborder="0" height="150px" width="100%"></iframe> -->
 
   <header class="header">
-    <div class="h-titulo"><p>Soul Sport Center</p></div>
+    <div class="h-titulo">
+      <p>Soul Sport Center</p>
+    </div>
 
     <div class="h-medio">
-        <div class="h-navybar">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="/views/home.html">Home</a></li>
-                <li class="nav-item"><a href="/views/carrinho.html">Produtos</a></li>
-                <li class="nav-item"><a href="../views/about.html">Sobre</a></li>
-                <li class="nav-item"><a href="/views/contact.html">Contato</a></li>
-            </ul>
+      <div class="h-navybar">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="/views/home.html">Home</a></li>
+          <li class="nav-item"><a href="/views/carrinho.html">Produtos</a></li>
+          <li class="nav-item"><a href="../views/about.html">Sobre</a></li>
+          <li class="nav-item"><a href="/views/contact.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <div class="search">
+          <input type="text" placeholder="Procurar">
         </div>
-        <div class="right-side">
-            <div class="search">
-                <input type="text" placeholder="Procurar">
-            </div>
 
-            <div class="icons-header">
-                <div class="icon-right-site"> 
-                    <a href="#"> <ion-icon name="person-outline"></ion-icon>  </a>
-                    </div>
-            
-                <div class="icon-right-site">
-                    <a href="#"><ion-icon name="star-outline"></ion-icon> </a>
-                   </div>
-            
-                <div class="icon-right-site">
-                    <a href="#"><ion-icon name="cart-outline"></ion-icon> </a>                
-                </div>
-            </div>
-        </div>      
+        <div class="icons-header">
+          <div class="icon-right-site">
+            <a href="#"> <ion-icon name="person-outline"></ion-icon> </a>
+          </div>
+
+          <div class="icon-right-site">
+            <a href="#"><ion-icon name="star-outline"></ion-icon> </a>
+          </div>
+
+          <div class="icon-right-site">
+            <a href="#"><ion-icon name="cart-outline"></ion-icon> </a>
+          </div>
         </div>
+      </div>
+    </div>
 
     <div class="h-cadastro">
       <a href="#">Entre para o clube</a>
     </div>
-</header>  
+  </header>
 
 
 
-  <!-- inicio carrossel -->
+  <!--                                      inicio carrossel -->
   <div id="carousel">
     <img src="/images/foot.jpg" class="slide">
     <img src="/images/hero-bg.jpg" class="slide">
@@ -73,10 +75,10 @@
     <div class="dot"></div>
     <div class="dot"></div>
   </div>
-  <!-- //                   Carrossel Fim            -->
+  <!--                                      Carrossel Fim            -->
 
 
-  <!-- //                   Tendencias start            -->
+  <!--                                      Tendencias start            -->
   <section id="trending-section">
     <h2>Tendencias</h2>
 
@@ -95,22 +97,22 @@
       </a>
 
       <a class="card-trending " href="#" onclick="showModal(event, 3)">
-        <img src="/images/trendBr.jpeg" alt="Trending 3"  id="tendencia_imagem3">
+        <img src="/images/trendBr.jpeg" alt="Trending 3" id="tendencia_imagem3">
         <h3 id="title-tendencia3">Tendencia 3</h3>
         <p>Lorem consectetur adipisicing elit.</p>
       </a>
 
       <a class="card-trending" href="#" onclick="showModal(event, 4)">
-        <img src="/images/trend6.jpg" alt="Trending 4"  id="tendencia_imagem4">
+        <img src="/images/trend6.jpg" alt="Trending 4" id="tendencia_imagem4">
         <h3 id="title-tendencia4">Tendencia 4</h3>
         <p>Lorem consectetur adipisicing elit.</p>
       </a>
 
     </div>
   </section>
-  <!-- //                   Tendencias Fim            -->
+  <!--                                      Tendencias Fim            -->
 
-  <!-- //                   Modal start            -->
+  <!--                                      Modal start            -->
   <div id="modal" class="modal">
     <div class="modal-content">
       <span class="close" onclick="hideModal()">&times;</span>
@@ -124,10 +126,10 @@
 
     </div>
   </div>
-  <!-- //                   Modal Fim            -->
+  <!--                                      Modal Fim            -->
 
 
-  <!-- //                   Paginacao destaque start            -->
+  <!--                                      Paginacao destaque start            -->
   <div class="destaque_section">
     <div class="destaque_title">
       <p>Seção em destaque</p>
@@ -144,10 +146,10 @@
     </div>
   </div>
 
-  <!-- //                   Paginacao destaque fim             -->
+  <!--                                      Paginacao destaque fim             -->
 
 
-  <!-- //                   Destaque start            -->
+  <!--                                       Destaque start            -->
   <section class="produtos">
 
     <div class="destaque-card">
@@ -222,8 +224,8 @@
     </div>
   </section>
 
-  <!-- //                   Destaque fim            -->
-  <!--        inicio banner  -->
+  <!--                                      Destaque fim            -->
+  <!--                                       inicio banner  -->
 
   <section class="banner">
     <h2>Entre para o Clube e ganhe 20% OFF!</h2>
@@ -233,10 +235,10 @@
     </a>
 
   </section>
-  <!--         fim banner  -->
+  <!--                                      fim banner  -->
 
 
-  <!-- //                   Categorias start            -->
+  <!--                                      Categorias start            -->
   <h1 class="categorias_title">Categorias</h1>
 
 
@@ -295,13 +297,14 @@
 
 
 
-
+  <!-- ----                                    nao mexer abaixo -->
   <!-- header  -->
+  <script src="/js/header.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <!-- ---- nao mexer abaixo -->
+  <!-- carrinho  -->
   <script src="/js/carrinho.js"></script>
-  <script src="/js/header.js"></script>
+
   <script src="/js/home.js"></script>
   <script src="/js/carrossel.js"></script>
   <iframe src="/partials/footer.html" frameborder="0" height="150px" width="100%"></iframe>

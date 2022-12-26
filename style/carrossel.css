@@ -17,11 +17,7 @@
     object-fit: cover;
   }
 
- 
-
-
-
-  /* <------- botoes --------->  */
+ /* -- -- -- -- -- -- -- -- -- -- --  botoes --------->  */
   button {
     border-radius: 50%;
     width: 50px;
@@ -36,17 +32,14 @@
     position: absolute;
     bottom: 410px;
     left: 20px;
- 
-  
   }
   
   #next {
     position: absolute;
     bottom: 410px;
     right: 35px;
-   
-    
   }
+
   #previous img{
     width: 50px;
     height: 50px;
@@ -57,10 +50,9 @@
     width: 50px;
     height: 50px;
     display: none;
-
   }
 
-/* <------- paginacao --------->  */
+/* -- -- -- -- -- -- -- -- -- -- -- paginacao --------->  */
   #pagination {
     display: flex;
     justify-content: center;
@@ -75,9 +67,6 @@
     margin-top: 5px;
   }
   
-
-
-
 .text{
   width: 500px;
   margin: a;
