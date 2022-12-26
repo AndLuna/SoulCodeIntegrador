@@ -82,3 +82,33 @@ line-height: 1.7;
 }
 
 /*Iniciando estilos trend aqui*/
+.img_container_trend{
+    height: 500px;
+    width: 485px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+.container_trend{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo_container_trend{
+    font-size: 35px;
+    font-weight: 600;
+}
+.div_titulo_e_textos_trend{
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: justify;
+    line-height: 1.7;
+}
+.descricao_container_trend{
+    padding-top: 45px;
+    width: 75%;
+}
+.footer_trend{
+   width: 100vw;
+}
+.banner_trend{
+    width: 100vw;
+}
