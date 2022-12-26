@@ -5,11 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-    <title>Document</title>
+    <title>Web-To-Lead</title>
     <link rel="stylesheet" href="../style/contact.css">
+    <link rel="sytlesheet" href="../style/header.css">
 </head>
 <body>
-    <div class="container" >
+  <!--Head-->
+  <header class="header">
+    <div class="h-titulo"><p>Soul Sport Center</p></div>
+
+    <div class="h-medio">
+        <div class="h-navybar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="/views/home.html">Home</a></li>
+                <li class="nav-item"><a href="/views/carrinho.html">Produtos</a></li>
+                <li class="nav-item"><a href="../views/about.html">Sobre</a></li>
+                <li class="nav-item"><a href="/views/contact.html">Contato</a></li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <div class="search">
+                <input type="text" placeholder="Procurar">
+            </div>
+
+            <div class="icons-header">
+                <div class="icon-right-site"> 
+                    <a href="#"> <ion-icon name="person-outline"></ion-icon>  </a>
+                    </div>
+            
+                <div class="icon-right-site">
+                    <a href="#"><ion-icon name="star-outline"></ion-icon> </a>
+                   </div>
+            
+                <div class="icon-right-site">
+                    <a href="#"><ion-icon name="cart-outline"></ion-icon> </a>                
+                </div>
+            </div>
+        </div>      
+        </div>
+
+    <div class="h-cadastro">
+      <a href="#">Entre para o clube</a>
+    </div>
+</header>  
+<!--Fomulario-->
+  <div class="container" >
         <a class="links" id="fazercontato"></a>
         
          
@@ -18,36 +58,95 @@
               <h1>Preencha suas informações</h1>
               <h2 Style="text-align: center;">Logo entraremos em contato</h2>
               <div class="div1"> 
-              <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-                <input type=hidden name="oid" value="00DDn000006ArjU">
-                <input type=hidden name="retURL" value="https://www.youtube.com/watch?v=sn_VWhhe0O4">
+                  <input type=hidden name="oid" value="00DDn000006ArjU">
+                  <input type=hidden name="retURL" value="https://www.youtube.com/watch?v=IBFIbRM1gEc">
+                  
+                  <div class="div1">
+                    <label for="first_name">Primeiro Nome</label><input style="margin-bottom: 2%"id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+                  
+                    <label for="last_name">Sobrenome</label><input style="margin-bottom: 2%" id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+                    
+                    <label for="mobile">Celular</label><input style="margin-bottom: 2%" id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
+                    
+                    <label for="email">Email</label><input style="margin-bottom: 2%" id="email" maxlength="80" name="email" size="20" type="text" /><br>
+                    
+                    <label for="zip">CPF:<input style="margin-bottom: 2%" id="00NDn00000IjF6W" maxlength="11" name="00NDn00000IjF6W" size="20" type="text" /><br></label>
+                  </div>
+                </div>
+                  
+                  <div class="div2">
+                  
+                    <label for="zip">CEP</label><input  style="margin-bottom: 2%" id="zip" maxlength="20" name="zip" size="20" type="text" /><br>
+                  
+                    <label for="zip">Endereço:<input style="margin-bottom: 2%" id="00NDn00000IjF6v" maxlength="255" name="00NDn00000IjF6v" size="20" type="text" /><br></label>
+                  
+                    <div class="camisa">
+                    <label>Tamanho de Camisa:<select  id="00NDn00000IjF6b" name="00NDn00000IjF6b" title="Tamanho de Camisa"><option value="">-- Nenhum --</option></label>
+                  
+                        <option value="PP">PP</option>
+                        <option value="P">P</option>
+                        <option value="M">M</option>
+                        <option value="G">G</option>
+                        <option value="GG">GG</option>
+                        <option value="XG">XG</option>
+                    </select><br>
+                </div>
+                <div class="bermuda">
+                  <label>Tamanho de Bermuda:<select  id="00NDn00000IjF6g" name="00NDn00000IjF6g" title="Tamanho de Bermuda"></label>
+                  <option value="">-- Nenhum --</option>
+                  <option value="36">36</option>
+                  <option value="37">37</option>
+                  <option value="38">38</option>
+                  <option value="39">39</option>
+                  <option value="40">40</option>
+                  <option value="41">41</option>
+                  <option value="42">42</option>
+                  <option value="43">43</option>
+                  <option value="44">44</option>
+                  <option value="45">45</option>
+                  <option value="46">46</option>
+                  <option value="47">47</option>
+                  <option value="48">48</option>
+                  <option value="49">49</option>
+                  <option value="50">50</option>
+                  <option value="51">51</option>
+                  <option value="52">52</option>
+                  <option value="53">53</option>
+                  <option value="54">54</option>
+                  </select><br>
+                </div>
+                <div class="calcado">
+                  <label>Tamanho de Calçado:<div><select  id="00NDn00000IjF6l" name="00NDn00000IjF6l" title="Tamanho de Calçado"></div></label>
                 
-                <label for="first_name">Primeiro Nome</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+                  <option value="">-- Nenhum --</option>
+                  <option value="35">35</option>
+                  <option value="36">36</option>
+                  <option value="37">37</option>
+                  <option value="38">38</option>
+                  <option value="39">39</option>
+                  <option value="40">40</option>
+                  <option value="41">41</option>
+                  <option value="42">42</option>
+                  <option value="43">43</option>
+                  <option value="44">44</option>
+                  <option value="45">45</option>
+                  <option value="46">46</option>
+                  <option value="47">47</option>
+                  <option value="48">48</option>
+                  <option value="49">49</option>
+                  <option value="50">50</option>
+                  <option value="51">51</option>
+                  <option value="52">52</option>
+                  <option value="53">53</option>
+                  </select><br>
+                </div>
+                </div>
+                  <input type="submit" name="submit">
+                  
+                  </form>
                 
-                <label for="last_name">Sobrenome</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
-                
-                <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
-                
-                <label for="company">Empresa</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
-                
-                <label for="city">Cidade</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
-              </div>
-              <div class="div2"> 
-                <label for="state">Estado/província</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
-                
-                <label for="phone">Telefone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
-                
-                <label for="mobile">Celular</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
-                
-                <label for="zip">CEP</label><input  id="zip" maxlength="20" name="zip" size="20" type="text" /><br>
-                
-                <label for="fax">Fax</label><input  id="fax" maxlength="40" name="fax" size="20" type="text" /><br>
-              </div>
-              <div class="div4">
-                <input type="submit" name="submit">
-              </div>
-                </form>
           </div>
         </div>
       </div>  
