@@ -117,6 +117,10 @@ window.addEventListener('click', function (event) {
 });
 
 
+// testando botao categoria
+
+
+
 // dot de paginacao
 // Cria as bolinhas de paginação
 
