@@ -268,15 +268,24 @@ button {
   padding: 10px;
 }
 
-#modal-valor {
+#modal-valor, #modal-more {
   margin-left: 8px;
   margin-top: 30px;
-  width: 80px;
+  width: 130px;
   color: white;
-  background-color: rgb(51, 79, 204);
+  background-color: #C8405E;
   height: 22px;
-  padding: 5px 15px 0px 20px;
+  padding: 5px 1px 20px 10px;
   border-radius: 4px;
+  text-decoration: none;
+}
+.modal-text-separation p{
+  text-decoration: none;
+}
+
+.modal-text-separation a{
+  text-decoration: none;
+  color: white;
 }
 
 /* #modal-valor{
