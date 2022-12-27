@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/style/reset.css">
     <link rel="stylesheet" href="../style/carrinho.css">
     <link rel="stylesheet" href="../style/header.css">
+    <script defer src="../js/carrinho.js"></script>
     <title>Produtos</title>
 </head>
 <body>
@@ -60,118 +61,394 @@
   </div>
   
   
-    <div class="Coluna1">
+  <div class="Coluna1">
       
-      <div class="Itens" data-categoria="blusas">
-        <div class="Fundo">
-          <img src="../images/camisa.webp" alt="Camiseta Adicolor Essentials">
-          <p>R$ 89,99</p>
-        </div>
-        <p>Camiseta Adicolor Essentials</p>
+    <div class="Itens" id="camisa1" data-categoria="blusas">
+      <div class="Fundo">
+        <img src="../images/camisa.webp" alt="Camiseta Adicolor Essentials">
+        <p>R$ 89,99</p>
       </div>
-
-      <div class="Itens" data-categoria="blusas">
-        <div class="Fundo">
-          <img src="../images/camisa2.webp" alt="Camiseta Esportiva">
-          <p>R$ 119,99</p>
-        </div>
-        <p>Camiseta Esportiva</p>
-      </div>
-
-      <div class="Itens" data-categoria="blusas">
-        <div class="Fundo">
-          <img src="../images/camisa3.webp" alt="Camiseta Essentials">
-          <p>R$ 99,99</p>
-        </div>
-        <p>Camiseta Essentials</p>
-      </div>
-
-      <div class="Itens" data-categoria="blusas">
-        <div class="Fundo">
-          <img src="../images/jaqueta.jpg" alt="">
-          <p>R$ 199,99</p>
-        </div>
-        <p>Moletom Essentials</p>
-      </div>
-
+      <p>Camiseta Adicolor Essentials</p>
     </div>
 
-    <div class="Coluna2">
-      
-      <div class="Itens" data-categoria="calças">
-        <div class="Fundo">
-          <img src="../images/calca1.webp" alt="Calças Pretas Afuniladas">
-          <p>R$ 199,99</p>
-        </div>
-        <p>Calças Pretas Afuniladas</p>
+    <div class="Itens" id="camisa2" data-categoria="blusas">
+      <div class="Fundo">
+        <img src="../images/camisa2.webp" alt="Camiseta Esportiva">
+        <p>R$ 119,99</p>
       </div>
-
-      <div class="Itens" data-categoria="calças">
-        <div class="Fundo">
-          <img src="../images/calca2.webp" alt="Calças Pretas Afuniladas Cinza">
-          <p>R$ 199,99</p>
-        </div>
-        <p>Calças Pretas Afuniladas Cinza</p>
-      </div>
-
-      <div class="Itens" data-categoria="calças">
-        <div class="Fundo">
-          <img src="../images/calca3.webp" alt="Calças Adidas">
-          <p>R$ 149,99</p>
-        </div>
-        <p>Calças Adidas</p>
-      </div>
-
-      <div class="Itens"  data-categoria="calças">
-        <div class="Fundo">
-          <img src="../images/calca4.webp" alt="Calça Beand Love">
-          <p>R$ 249,99</p>
-        </div>
-        <p>Calça Beand Love</p>
-      </div>
-
+      <p>Camiseta Esportiva</p>
     </div>
 
-    <div class="Coluna3">
-      
-      <div class="Itens"  data-categoria="calçados">
-        <div class="Fundo">
-          <img src="../images/tenis2.webp" alt="Stan Smith Her Vegan">
-          <p>R$ 499,99</p>
-        </div>
-        <p>Stan Smith Her Vegan</p>
+    <div class="Itens" id="camisa3" data-categoria="blusas">
+      <div class="Fundo">
+        <img src="../images/camisa3.webp" alt="Camiseta Essentials">
+        <p>R$ 99,99</p>
       </div>
-
-      <div class="Itens"  data-categoria="calçados">
-        <div class="Fundo">
-          <img src="../images/tenis1.webp" alt="Stan Smith Recon">
-          <p>R$ 799,99</p>
-        </div>
-        <p>Stan Smith Recon</p>
-      </div>
-
-      <div class="Itens"  data-categoria="calçados">
-        <div class="Fundo">
-          <img src="../images/chuteira.webp" alt="Tenis Superstar">
-          <p>R$ 499,99</p>
-        </div>
-        <p>Tenis Superstar</p>
-      </div>
-
-      <div class="Itens"  data-categoria="calçados">
-        <div class="Fundo">
-          <img src="../images/tenis.webp" alt="Tenis Superstar">
-          <p>R$ 499,99</p>
-        </div>
-        <p>Tenis Superstar</p>
-      </div>
-
+      <p>Camiseta Essentials</p>
     </div>
+
+    <div class="Itens" id="camisa4" data-categoria="blusas">
+      <div class="Fundo">
+        <img src="../images/jaqueta.jpg" alt="Moletom Essentials">
+        <p>R$ 199,99</p>
+      </div>
+      <p>Moletom Essentials</p>
+    </div>
+
+  </div>
+
+  <div class="Coluna2">
+    
+    <div class="Itens" id="calca1" data-categoria="calças">
+      <div class="Fundo">
+        <img src="../images/calca1.webp" alt="Calças Pretas Afuniladas">
+        <p>R$ 199,99</p>
+      </div>
+      <p>Calças Pretas Afuniladas</p>
+    </div>
+
+    <div class="Itens" id="calca2" data-categoria="calças">
+      <div class="Fundo">
+        <img src="../images/calca2.webp" alt="Calças Afuniladas">
+        <p>R$ 199,99</p>
+      </div>
+      <p>Calças Afuniladas</p>
+    </div>
+
+    <div class="Itens" id="calca3" data-categoria="calças">
+      <div class="Fundo">
+        <img src="../images/calca3.webp" alt="Calças Adidas">
+        <p>R$ 149,99</p>
+      </div>
+      <p>Calças Adidas</p>
+    </div>
+
+    <div class="Itens" id="calca4" data-categoria="calças">
+      <div class="Fundo">
+        <img src="../images/calca4.webp" alt="Calça Beand Love">
+        <p>R$ 249,99</p>
+      </div>
+      <p>Calça Beand Love</p>
+    </div>
+
+  </div>
+
+  <div class="Coluna3">
+    
+    <div class="Itens" id="tenis1" data-categoria="calçados">
+      <div class="Fundo">
+        <img src="../images/tenis2.webp" alt="Stan Smith Her Vegan">
+        <p>R$ 499,99</p>
+      </div>
+      <p>Stan Smith Her Vegan</p>
+    </div>
+
+    <div class="Itens" id="tenis2" data-categoria="calçados">
+      <div class="Fundo">
+        <img src="../images/tenis1.webp" alt="Stan Smith Recon">
+        <p>R$ 799,99</p>
+      </div>
+      <p>Stan Smith Recon</p>
+    </div>
+
+    <div class="Itens" id="tenis3" data-categoria="calçados">
+      <div class="Fundo">
+        <img src="../images/chuteira.webp" alt="Tenis Superstar">
+        <p>R$ 499,99</p>
+      </div>
+      <p>Tenis Superstar</p>
+    </div>
+
+    <div class="Itens" id="tenis4" data-categoria="calçados">
+      <div class="Fundo">
+        <img src="../images/tenis.webp" alt="Tenis Super Smith">
+        <p>R$ 599,99</p>
+      </div>
+      <p>Tenis Super Smith</p>
+    </div>
+
+  </div>
+
+  <div id="item1" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/camisa.webp" alt="Camiseta Adicolor Essentials" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Camiseta Adicolor Essentials</p>
+                <p class="Preco">R$ 89,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item2" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/camisa2.webp" alt="Camiseta Esportiva" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Camiseta Esportiva</p>
+                <p class="Preco">R$ 119,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item3" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/camisa3.webp" alt="Camiseta Essentials" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Camiseta Essentials</p>
+                <p class="Preco">R$ 99,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item4" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/jaqueta.jpg" alt="Moletom Essentials" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Moletom Essentials</p>
+                <p class="Preco">R$ 199,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item5" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/calca1.webp" alt="Calças Pretas Afuniladas" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Calças Pretas Afuniladas</p>
+                <p class="Preco">R$ 199,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item6" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/calca2.webp" alt="Calças Pretas Afuniladas" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Calças Afuniladas</p>
+                <p class="Preco">R$ 199,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item7" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/calca3.webp" alt="Calças Adidas" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Calças Adidas</p>
+                <p class="Preco">R$ 149,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item8" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/calca4.webp" alt="Calça Beand Love" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Calça Beand Love</p>
+                <p class="Preco">R$ 249,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item9" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/tenis2.webp" alt="Stan Smith Her Vegan" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Stan Smith Her Vegan</p>
+                <p class="Preco">R$ 499,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item10" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/tenis1.webp" alt="Stan Smith Recon" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Stan Smith Recon</p>
+                <p class="Preco">R$ 799,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item11" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/chuteira.webp" alt="Tenis Superstar" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Tenis Superstar</p>
+                <p class="Preco">R$ 499,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item12" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/tenis.webp" alt="Tenis Super Smith" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Tenis Super Smith</p>
+                <p class="Preco">R$ 599,99</p>
+            </div>
+            <div>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
   </section>
 
     <iframe src="../partials/footer.html" frameborder="0" height="150px" width="100%"></iframe>
     <script src="../js/categorias.js"></script>
-    <script src="../js/carrinho.js"></script>
+    
 </body>
     
 </html>
