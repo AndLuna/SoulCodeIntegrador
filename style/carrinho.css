@@ -39,12 +39,12 @@
   bottom: 10px;
 }
 
-.Itens{
+.Itens{ 
   position: relative;
   display: inline-block;
   margin: 5px;
   left: 75px;
-
+  cursor: pointer;
 }
 
 .Itens img{
@@ -59,6 +59,125 @@
 
 .Itens:hover{
   border: 1px solid black;
+}
+
+.ModalContainer{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,.6);
+  z-index: 5;
+  display: none;
+}
+
+.Modal{
+  position: relative;
+  background-color: white;
+  width: 70%;
+  min-width: 500px;
+  padding: 40px;
+  border: 5px solid black;
+  box-shadow: 0 0 0 5px white;
+  
+}
+
+.ModalContainer.Mostrar{
+  display: flex;
+}
+
+.FecharModal{
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: rgb(241, 51, 51);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+}
+
+.Centralizar{
+  display: flex;
+  display: inline-block;
+}
+
+.LadoDireito{
+  width: 39%;
+  display: inline-block;
+  height: 500px;
+  background-color: #ECEEF1;
+  
+}
+
+.LadoEsquerdo{
+  position: absolute;
+  right: 50px;
+  display: inline-block;
+  width: 42%;
+  height: 500px;
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+.Icone{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  
+}
+
+.Produto{
+  position: relative;
+  text-transform: uppercase;
+  left: 25px;
+  top: 10px;
+  font-size: xx-large;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Preco{
+  position: relative;
+  left: 25px;
+  bottom: 15px;
+  font-size: large;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Comprar{
+  position: absolute;
+  text-transform: uppercase;
+  left: 15px;
+  top: 85%;
+  width: 300px;
+  height: 50px;
+  text-align: left;
+  padding-left: 15px;
+  background-color: black;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.descricao{
+  padding: 5px;
+}
+
+.Comprar:hover{
+  color: gray;
 }
 
 

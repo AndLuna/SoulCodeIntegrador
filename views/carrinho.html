@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/style/reset.css">
     <link rel="stylesheet" href="../style/carrinho.css">
     <link rel="stylesheet" href="../style/header.css">
+    <script defer src="../js/carrinho.js"></script>
     <title>Produtos</title>
 </head>
 <body>
@@ -60,118 +61,432 @@
   </div>
   
   
-    <div class="Coluna1">
+  <div class="Coluna1">
       
-      <div class="Itens" data-categoria="blusas">
-        <div class="Fundo">
-          <img src="../images/camisa.webp" alt="Camiseta Adicolor Essentials">
-          <p>R$ 89,99</p>
-        </div>
-        <p>Camiseta Adicolor Essentials</p>
+    <div class="Itens" id="camisa1" data-categoria="blusas">
+      <div class="Fundo">
+        <img src="../images/camisa.webp" alt="Camiseta Adicolor">
+        <p>R$ 89,99</p>
       </div>
-
-      <div class="Itens" data-categoria="blusas">
-        <div class="Fundo">
-          <img src="../images/camisa2.webp" alt="Camiseta Esportiva">
-          <p>R$ 119,99</p>
-        </div>
-        <p>Camiseta Esportiva</p>
-      </div>
-
-      <div class="Itens" data-categoria="blusas">
-        <div class="Fundo">
-          <img src="../images/camisa3.webp" alt="Camiseta Essentials">
-          <p>R$ 99,99</p>
-        </div>
-        <p>Camiseta Essentials</p>
-      </div>
-
-      <div class="Itens" data-categoria="blusas">
-        <div class="Fundo">
-          <img src="../images/jaqueta.jpg" alt="">
-          <p>R$ 199,99</p>
-        </div>
-        <p>Moletom Essentials</p>
-      </div>
-
+      <p>Camiseta Adicolor</p>
     </div>
 
-    <div class="Coluna2">
-      
-      <div class="Itens" data-categoria="calças">
-        <div class="Fundo">
-          <img src="../images/calca1.webp" alt="Calças Pretas Afuniladas">
-          <p>R$ 199,99</p>
-        </div>
-        <p>Calças Pretas Afuniladas</p>
+    <div class="Itens" id="camisa2" data-categoria="blusas">
+      <div class="Fundo">
+        <img src="../images/camisa2.webp" alt="Camiseta Esportiva">
+        <p>R$ 119,99</p>
       </div>
-
-      <div class="Itens" data-categoria="calças">
-        <div class="Fundo">
-          <img src="../images/calca2.webp" alt="Calças Pretas Afuniladas Cinza">
-          <p>R$ 199,99</p>
-        </div>
-        <p>Calças Pretas Afuniladas Cinza</p>
-      </div>
-
-      <div class="Itens" data-categoria="calças">
-        <div class="Fundo">
-          <img src="../images/calca3.webp" alt="Calças Adidas">
-          <p>R$ 149,99</p>
-        </div>
-        <p>Calças Adidas</p>
-      </div>
-
-      <div class="Itens"  data-categoria="calças">
-        <div class="Fundo">
-          <img src="../images/calca4.webp" alt="Calça Beand Love">
-          <p>R$ 249,99</p>
-        </div>
-        <p>Calça Beand Love</p>
-      </div>
-
+      <p>Camiseta Esportiva</p>
     </div>
 
-    <div class="Coluna3">
-      
-      <div class="Itens"  data-categoria="calçados">
-        <div class="Fundo">
-          <img src="../images/tenis2.webp" alt="Stan Smith Her Vegan">
-          <p>R$ 499,99</p>
-        </div>
-        <p>Stan Smith Her Vegan</p>
+    <div class="Itens" id="camisa3" data-categoria="blusas">
+      <div class="Fundo">
+        <img src="../images/camisa3.webp" alt="Camiseta Essentials">
+        <p>R$ 99,99</p>
       </div>
-
-      <div class="Itens"  data-categoria="calçados">
-        <div class="Fundo">
-          <img src="../images/tenis1.webp" alt="Stan Smith Recon">
-          <p>R$ 799,99</p>
-        </div>
-        <p>Stan Smith Recon</p>
-      </div>
-
-      <div class="Itens"  data-categoria="calçados">
-        <div class="Fundo">
-          <img src="../images/chuteira.webp" alt="Tenis Superstar">
-          <p>R$ 499,99</p>
-        </div>
-        <p>Tenis Superstar</p>
-      </div>
-
-      <div class="Itens"  data-categoria="calçados">
-        <div class="Fundo">
-          <img src="../images/tenis.webp" alt="Tenis Superstar">
-          <p>R$ 499,99</p>
-        </div>
-        <p>Tenis Superstar</p>
-      </div>
-
+      <p>Camiseta Essentials</p>
     </div>
+
+    <div class="Itens" id="camisa4" data-categoria="blusas">
+      <div class="Fundo">
+        <img src="../images/jaqueta.jpg" alt="Moletom Essentials">
+        <p>R$ 199,99</p>
+      </div>
+      <p>Moletom Essentials</p>
+    </div>
+
+  </div>
+
+  <div class="Coluna2">
+    
+    <div class="Itens" id="calca1" data-categoria="calças">
+      <div class="Fundo">
+        <img src="../images/calca1.webp" alt="Calças Pretas Adidas">
+        <p>R$ 299,99</p>
+      </div>
+      <p>Calças Pretas Adidas</p>
+    </div>
+
+    <div class="Itens" id="calca2" data-categoria="calças">
+      <div class="Fundo">
+        <img src="../images/calca2.webp" alt="Calças Afuniladas">
+        <p>R$ 199,99</p>
+      </div>
+      <p>Calças Afuniladas</p>
+    </div>
+
+    <div class="Itens" id="calca3" data-categoria="calças">
+      <div class="Fundo">
+        <img src="../images/calca3.webp" alt="Calças Adidas">
+        <p>R$ 149,99</p>
+      </div>
+      <p>Calças Adidas</p>
+    </div>
+
+    <div class="Itens" id="calca4" data-categoria="calças">
+      <div class="Fundo">
+        <img src="../images/calca4.webp" alt="Calça Beand Love">
+        <p>R$ 249,99</p>
+      </div>
+      <p>Calça Beand Love</p>
+    </div>
+
+  </div>
+
+  <div class="Coluna3">
+    
+    <div class="Itens" id="tenis1" data-categoria="calçados">
+      <div class="Fundo">
+        <img src="../images/tenis2.webp" alt="Stan Smith Her Vegan">
+        <p>R$ 499,99</p>
+      </div>
+      <p>Stan Smith Her Vegan</p>
+    </div>
+
+    <div class="Itens" id="tenis2" data-categoria="calçados">
+      <div class="Fundo">
+        <img src="../images/tenis1.webp" alt="Stan Smith Recon">
+        <p>R$ 799,99</p>
+      </div>
+      <p>Stan Smith Recon</p>
+    </div>
+
+    <div class="Itens" id="tenis3" data-categoria="calçados">
+      <div class="Fundo">
+        <img src="../images/chuteira.webp" alt="Tenis Superstar">
+        <p>R$ 499,99</p>
+      </div>
+      <p>Tenis Superstar</p>
+    </div>
+
+    <div class="Itens" id="tenis4" data-categoria="calçados">
+      <div class="Fundo">
+        <img src="../images/tenis.webp" alt="Tenis Super Smith">
+        <p>R$ 599,99</p>
+      </div>
+      <p>Tenis Super Smith</p>
+    </div>
+
+  </div>
+
+  <div id="item1" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/camisa.webp" alt="Camiseta Adicolor" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Camiseta Adicolor</p>
+                <p class="Preco">R$ 89,99</p>
+            </div>
+            <div>
+                <p>Das reuniões pela manhã aos treinos da tarde, esta camiseta adidas mantém seu visual sempre alinhado enquanto você se movimenta ao longo do dia. Ela mantém seu corpo seco com o tecido AEROREADY, que controla a umidade, para que você siga confortável. <br><br>
+                O adidas adicolor e as Três Listras criou uma vibe esportiva, e a modelagem padrão oferece um estilo versátil e casual.
+                <br>
+                Este produto é feito com Primegreen, uma série de materiais reciclados de alta performance.</p>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item2" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/camisa2.webp" alt="Camiseta Esportiva" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Camiseta Esportiva</p>
+                <p class="Preco">R$ 119,99</p>
+            </div>
+            <div>
+                <p>Os pequenos só querem se divertir, e esta camiseta infantil adidas Adicolor adora brincar. Os Trefoils em movimento combinam com a energia inesgotável deles. A modelagem confortável facilita na hora de vestir, para que você tenha tempo de aproveitar o café. Hora da soneca? O algodão é tão macio, que você não precisa trocá-los antes de dormir.
+                  <br><br>
+                Nossos produtos em algodão apoiam a plantação mais sustentável dessa matéria-prima.</p>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item3" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/camisa3.webp" alt="Camiseta Essentials" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Camiseta Essentials</p>
+                <p class="Preco">R$ 99,99</p>
+            </div>
+            <div>
+              <p>O Crf Tr Polo é novo para essas características de filtro em nosso website, na categoria Homem. Mas você já pode visualizar as imagens acima e ter mais detalhes, para conhecer o produto de diferentes ângulos em primeira mão.
+                <br><br>
+              Se você já experimentou o Crf Tr Polo antes, deixe um comentário a seguir para nos contar o que você achou.
+              </p>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item4" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/jaqueta.jpg" alt="Moletom Essentials" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Moletom Essentials</p>
+                <p class="Preco">R$ 199,99</p>
+            </div>
+            <div>
+                <p>Este vai para os que adoram um moletom e que sempre souberam que você nunca erra quando veste um. Os detalhes clássicos incluem canelagem na barra e punhos e bolso canguru, indispensáveis para um moletom de verdade. O tecido de moletinho adiciona uma sensação aconchegante irresistível.
+                <br><br>
+                Este produto é feito com conteúdo reciclado como parte de nossa meta de eliminar o lixo plástico. Nossas peças em algodão apoiam a plantação sustentável dessa matéria-prima. Isso é parte de nossa ambição de eliminar o lixo plástico.</p>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item5" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/calca1.webp" alt="Calças Pretas Adidas" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Calças Pretas Adidas</p>
+                <p class="Preco">R$ 299,99</p>
+            </div>
+            <div>
+                <p>Os rumores são de que a adidas criou o agasalho de treino em 64. Não podemos confirmar, mas as Três Listras estiveram décadas à frente nos gramados, nos estádios, nas ruas e em todos os lugares entre eles. Não importa onde você esteja, elas parecem sempre estar em casa. 
+                  <br><br>
+                A calça esportiva é prova incontestável disso. Sinônimo de descontração e conforto, o tecido macio é confeccionado com fio Parley Ocean Plastic, proveniente de resíduos plásticos reciclados</p>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item6" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/calca2.webp" alt="Calças Afuniladas" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Calças Afuniladas</p>
+                <p class="Preco">R$ 199,99</p>
+            </div>
+            <div>
+                <p>Exiba um look atlético dentro e fora de campo. Esta calça juvenil adidas atualiza o DNA do futebol seguindo um estilo moderno e sofisticado. O cavalo baixo e as pernas afuniladas garantem um ajuste sem distrações, seja para correr no parque ou relaxar no sofá. As Três Listras destacam seu lado esportivo.
+                  <br><br>
+                Este produto é feito com Primegreen, uma série de materiais reciclados de alta performance.</p>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item7" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/calca3.webp" alt="Calças Adidas" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Calças Adidas</p>
+                <p class="Preco">R$ 149,99</p>
+            </div>
+            <div>
+                <p>Exiba um look atlético dentro e fora de campo. Esta calça juvenil adidas atualiza o DNA do futebol seguindo um estilo moderno e sofisticado. O cavalo baixo e as pernas afuniladas garantem um ajuste sem distrações, seja para correr no parque ou relaxar no sofá. As Três Listras destacam seu lado esportivo.
+                  <br><br>
+                Este produto é feito com Primegreen, uma série de materiais reciclados de alta performance.</p>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item8" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/calca4.webp" alt="Calça Beand Love" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Calça Beand Love</p>
+                <p class="Preco">R$ 249,99</p>
+            </div>
+            <div>
+                <p>Às vezes você precisa adicionar um pouco de tecnologia à sua rotina diária. Esta calça adidas inspirada no esporte cumpre esse requisito. O tecido AEROREADY ajuda a controlar a umidade, portanto, mesmo que sua tarde tenha mais ação do que você esperava, seu corpo estará seco e confortável.
+                <br><br>
+                Este produto é feito com Primegreen, uma série de materiais reciclados de alta performance.</p>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item9" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/tenis2.webp" alt="Stan Smith Her Vegan" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Stan Smith Her Vegan</p>
+                <p class="Preco">R$ 499,99</p>
+            </div>
+            <div>
+                <p>Nem precisamos dizer que começar o dia com um suco natural pode fazer toda a diferença. Este tênis adidas Stan Smith adota a mentalidade "Make it juicy”, que está literalmente na etiqueta da língua, como um lembrete divertido para você extrair o melhor do seu dia. 
+                <br><br>
+                Além de ser feito de materiais veganos, ele também tem ingredientes de suco ilustrados na palmilha, e as cores são uma referência clara a alguns de nossos sabores naturais favoritos.</p>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item10" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/tenis1.webp" alt="Stan Smith Recon" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Stan Smith Recon</p>
+                <p class="Preco">R$ 799,99</p>
+            </div>
+            <div>
+                <p>O Stan Smith Recon é novo para essas características de filtro em nosso website, na categoria Homem. Mas você já pode visualizar as imagens acima e ter mais detalhes, para conhecer o produto de diferentes ângulos em primeira mão.
+                  <br><br>
+                Ainda estamos trabalhando para obter mais informações sobre o Stan Smith Recon aqui, então não esqueça de retornar ao site em breve. Enquanto isso, aqui está o número do artigo do produto H03704 para sua referência. Ele é classificado na categoria Tênis</p>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item11" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/chuteira.webp" alt="Tenis Superstar" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Tenis Superstar</p>
+                <p class="Preco">R$ 499,99</p>
+            </div>
+            <div>
+              O Tenis superstar é novo para essas características de filtro em nosso website, na categoria Homem. Mas você já pode visualizar as imagens acima e ter mais detalhes, para conhecer o produto de diferentes ângulos em primeira mão.
+              <br><br>
+              Ainda estamos trabalhando para obter mais informações sobre o superstar aqui, então não esqueça de retornar ao site em breve. Enquanto isso, aqui está o número do artigo do produto FZ6153 para sua referência. Ele é classificado na categoria Tênis
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="item12" class="ModalContainer">
+    <div class="Modal">
+      <button class="FecharModal">X</button>
+      <div class="Cetralizar">
+
+        <div class="LadoDireito">
+            <img src="../images/tenis.webp" alt="Tenis Super Smith" class="Icone">
+        </div>
+
+        <div class="LadoEsquerdo">
+            <div>
+                <p class="Produto">Tenis Super Smith</p>
+                <p class="Preco">R$ 599,99</p>
+            </div>
+            <div>
+                <p>Criado originalmente para as quadras de basquete nos anos 70. Celebrado pelas lendas do hip hop da década de 80. O tênis adidas Superstar é um ícone do estilo de vida urbano. 
+                  <br><br>
+                A mundialmente famosa biqueira de concha foi mantida como marca de originalidade e garantia de proteção. Assim como era nas quadras de basquete no passado.Agora você pode andar tranquilamente pelas ruas ou calçá-lo para ir a um festival de música sem se preocupar com os pisões.</p>
+                <input type="submit" value="Adicionar ao carinho" class="Comprar">
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
   </section>
 
     <iframe src="../partials/footer.html" frameborder="0" height="150px" width="100%"></iframe>
     <script src="../js/categorias.js"></script>
-    <script src="../js/carrinho.js"></script>
+    
 </body>
     
 </html>
