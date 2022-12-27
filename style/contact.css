@@ -149,25 +149,16 @@
 }
 .div2 {
     position:relative;
-float: left;
-border-width:2px;
-width:477px;
-height: auto;
-left: 320px;
-top: -345px;
-box-sizing: border-box;
+    float: left;
+    border-width:2px;
+    width:477px;
+    height: auto;
+    left: 320px;
+    top: -410px;
+    box-sizing: border-box;
 }
-.div4{
-    font-family: Arial,sans-serif;
-    position:relative;
-float: left;
-border-width:2px;
-width:200px;
-height: auto;
-left: 600px;
-top: -290px;
-box-sizing: border-box;
-}
+
+
 
 .camisa{
 margin-bottom: 2%;
@@ -183,6 +174,19 @@ width: 500px;
   margin-bottom: 2%;
   width: 500px;
 }
+
+.botao{
+  position:relative;
+  float: left;
+  border-width:2px;
+  width:477px;
+  height: auto;
+  left: 320px;
+  top: -410px;
+  box-sizing: border-box;
+}
+
+.revendedor
 
 select:-moz-placeholder,
 textarea:-moz-placeholder{
