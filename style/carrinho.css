@@ -173,7 +173,8 @@
 }
 
 .descricao{
-  padding: 5px;
+  position: absolute;
+  top: 25%;
 }
 
 .Comprar:hover{
