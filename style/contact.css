@@ -19,7 +19,7 @@
   }
   h1{
     font-size: 48px;
-    color: #066a75;
+    color: #2AAAFF;
     padding: 2px 0 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -42,7 +42,9 @@
   .content p:first-child{
     margin: 0px;
   }
-   
+  h4{
+    color: #405c60;
+  }
   label{
     color: #405c60;
     position: relative;
@@ -83,7 +85,7 @@
   input[type="submit"]{
     width: 100%!important;
     cursor: pointer;  
-    background: rgb(61, 157, 179);
+    background: #2AAAFF;
     padding: 8px 5px;
     color: #fff;
     font-size: 20px;  
@@ -99,9 +101,9 @@
    
   /*estilo do botão enviar*/
   input[type="submit"]:hover{
-    background: #4ab3c6;
+    background: #2AAAFF;
   }
-  
+
 .div1{
     position: relative;
     float: left;
@@ -122,8 +124,6 @@
     top: -410px;
     box-sizing: border-box;
 }
-
-
 
 .camisa{
 margin-bottom: 2%;
@@ -176,4 +176,12 @@ select:not([type="checkbox"]){
  
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
+}
+
+.logo{
+  text-align: center; 
+  HEIGHT: 25px; 
+  POSITION: absolute; 
+  TOP: 540px; 
+  WIDTH: 200px
 }
