@@ -58,30 +58,30 @@
               <h1 style="margin-top: 1%;">Preencha suas informações</h1>
               
               <div class="div1">
-
+                  <!--Formulario criado no sales force-->
                   <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
                     <input type=hidden name="oid" value="00DDn000006ArjU">
                     <input type=hidden name="retURL" value="https://www.youtube.com/watch?v=qUgYtRNmuSw">
                   <!--Primeira Coluna-->
                   <div class="div1">
-                    <label for="first_name">Primeiro Nome</label><input Style="margin-bottom: 2% ;" id="first_name" maxlength="40" name="first_name" size="20" type="text" required/><br>
+                    <label for="first_name">Primeiro Nome</label><input Style="margin-bottom: 2% ;" id="first_name" maxlength="40" name="first_name" size="20" type="text" placeholder= "Ex: Romero"required/><br>
 
-                    <label for="last_name">Sobrenome</label><input Style="margin-bottom: 2% ;" id="last_name" maxlength="80" name="last_name" size="20" type="text" required/><br>
+                    <label for="last_name">Sobrenome</label><input Style="margin-bottom: 2% ;" id="last_name" maxlength="80" name="last_name" size="20" type="text" placeholder="Ex: Brito" required/><br>
 
-                    <label for="email">Email</label><input Style="margin-bottom: 2% ;" id="email" maxlength="80" name="email" size="20" type="text" required/><br>
+                    <label for="email">Email</label><input Style="margin-bottom: 2% ;" id="email" maxlength="80" name="email" size="20" type="text" placeholder="exemplo@gmail.com" required/><br>
 
-                    <label for="mobile">Celular</label><input Style="margin-bottom: 2% ;" id="mobile" maxlength="40" name="mobile" size="20" type="text" required/><br>
+                    <label for="mobile">Celular</label><input Style="margin-bottom: 2% ;" id="mobile" maxlength="40" name="mobile" size="20" type="text" pattern="[0-9]+$" placeholder="Ex: 999999999 Apenas Números" required/><br>
 
-                    <label>CPF:<input Style="margin-bottom: 2% ;" id="00NDn00000IjF6W" maxlength="11" name="00NDn00000IjF6W" size="20" type="text" required/><br></label>
+                    <label>CPF:<input Style="margin-bottom: 2% ;" id="00NDn00000IjF6W" maxlength="11" name="00NDn00000IjF6W" size="20" type="text"  pattern="[0-9]+$" placeholder="Ex: 12345678910 Apenas Números" required/><br></label>
 
-                    <label>CEP:<input Style="margin-bottom: 2% ;" id="00NDn00000IjGcQ" name="00NDn00000IjGcQ" size="20" type="text" required/><br></label>
+                    <label>CEP:<input Style="margin-bottom: 2% ;" id="00NDn00000IjGcQ" name="00NDn00000IjGcQ" size="20" type="text"  pattern="[0-9]+$" placeholder="Ex: 55520000 Apenas Números" required/><br></label>
                   </div>
                 </div>
                   <!--Segunda Coluna-->
                   <div class="div2">
                     
-                    <label>Endereço:<input Style="margin-bottom: 2% ;" id="00NDn00000IjF6v" maxlength="255" name="00NDn00000IjF6v" size="20" type="text" required/><br></label>
+                    <label>Endereço:<input Style="margin-bottom: 2% ;" id="00NDn00000IjF6v" maxlength="255" name="00NDn00000IjF6v" size="20" type="text" placeholder="Rua; Num; Bairro." required/><br></label>
                     <label>Tamanho de Calçado:<select Style="margin-bottom: 2% ;  width: 477px" id="00NDn00000IjF6l" name="00NDn00000IjF6l" title="Tamanho de Calçado" required></label>
                       <option value="">-- Nenhum --</option>
                       <option value="35">35</option>
@@ -138,7 +138,7 @@
                       <option value="XG">XG</option>
                     </select><br>
 
-                    <label>Peças Desejadas:<input Style="margin-bottom: 2%; " id="00NDn00000IjH7a" name="00NDn00000IjH7a" size="20" type="text" /><br></label>
+                    <label>Quantidade de Peças Desejadas:<input Style="margin-bottom: 2%; " id="00NDn00000IjH7a" name="00NDn00000IjH7a" size="20" type="text" pattern="[0-9]+$" placeholder="Apenas Números" /><br></label>
                     
                     <div class="revendedor">
                     <label>Revendedor:<input Style="margin-bottom: 2%; " id="00NDn00000IjGaj" name="00NDn00000IjGaj" type="checkbox" value="1" /><br></label>
