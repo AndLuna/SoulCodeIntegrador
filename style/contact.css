@@ -15,11 +15,11 @@
     width: 500px;
     min-height: 560px;    
     margin: 0px auto;
-    position: relative;   
+    position: relative; 
   }
   h1{
     font-size: 48px;
-    color: #066a75;
+    color: #2AAAFF;
     padding: 2px 0 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -42,7 +42,9 @@
   .content p:first-child{
     margin: 0px;
   }
-   
+  h4{
+    color: #405c60;
+  }
   label{
     color: #405c60;
     position: relative;
@@ -83,7 +85,7 @@
   input[type="submit"]{
     width: 100%!important;
     cursor: pointer;  
-    background: rgb(61, 157, 179);
+    background: #2AAAFF;
     padding: 8px 5px;
     color: #fff;
     font-size: 20px;  
@@ -97,46 +99,11 @@
     transition: all 0.2s linear;
   }
    
-  /*estilo do botão submit no hover */
+  /*estilo do botão enviar*/
   input[type="submit"]:hover{
-    background: #4ab3c6;
+    background: #2AAAFF;
   }
-  .link{
-    position: absolute;
-    background: #e1eaeb;
-    color: #7f7c7c;
-    left: 0px;
-    height: 20px;
-    width: 440px;
-    padding: 17px 30px 20px 30px;
-    font-size: 16px;
-    text-align: right;
-    border-top: 1px solid #dbe5e8;
-   
-    -webkit-border-radius: 0 0  5px 5px;
-    border-radius: 0 0  5px 5px;
-  }
-   
-  .link a {
-    font-weight: bold;
-    background: #f7f8f1;
-    padding: 6px;
-    color: rgb(29, 162, 193);
-    margin-left: 10px;
-    border: 1px solid #cbd518;
-   
-    -webkit-border-radius: 4px;
-    border-radius: 4px;  
-   
-    -webkit-transition: all 0.4s linear;
-    transition: all 0.4s  linear;
-  }
-   
-  .link a:hover {
-    color: #39bfd7;
-    background: #f7f7f7;
-    border: 1px solid #4ab3c6;
-  }
+
 .div1{
     position: relative;
     float: left;
@@ -157,8 +124,6 @@
     top: -410px;
     box-sizing: border-box;
 }
-
-
 
 .camisa{
 margin-bottom: 2%;
@@ -211,4 +176,12 @@ select:not([type="checkbox"]){
  
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
+}
+
+.logo{
+  text-align: center; 
+  HEIGHT: 25px; 
+  POSITION: absolute; 
+  TOP: 540px; 
+  WIDTH: 200px
 }

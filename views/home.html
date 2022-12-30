@@ -8,11 +8,12 @@
   <title>Soul Sport Center</title>
   <link rel="shortcut icon" href="../images/sports.png" type="image/x-icon">
 
-  <link rel="stylesheet" href="/style/reset.css">
+  <link rel="stylesheet" href="../style/reset.css">
   <link rel="stylesheet" href="../style/header.css">
   <link rel="stylesheet" href="../style/home.css" type="text/css">
-  <link rel="stylesheet" href="/style/carrossel.css">
+  <link rel="stylesheet" href="../style/carrossel.css">
   <link rel="stylesheet" href="../style/categorias.css">
+  <link rel="stylesheet" href="../style/footer.css">
 </head>
 
 <body>
@@ -20,16 +21,16 @@
 
   <header class="header">
     <div class="h-titulo">
-      <p>Soul Sport Center</p>
+      <p>Sport Center Soul</p>
     </div>
 
     <div class="h-medio">
       <div class="h-navybar">
         <ul class="nav-list">
-          <li class="nav-item"><a href="/views/home.html">Home</a></li>
-          <li class="nav-item"><a href="/views/carrinho.html">Produtos</a></li>
+          <li class="nav-item"><a href="../views/home.html">Home</a></li>
+          <li class="nav-item"><a href="../views/carrinho.html">Produtos</a></li>
           <li class="nav-item"><a href="../views/about.html">Sobre</a></li>
-          <li class="nav-item"><a href="/views/contact.html">Contato</a></li>
+          <li class="nav-item"><a href="../views/contact.html">Contato</a></li>
         </ul>
       </div>
       <div class="right-side">
@@ -51,10 +52,10 @@
           </div>
         </div>
       </div>
-    </div>
+/    </div>
 
     <div class="h-cadastro">
-      <a href="#">Entre para o clube</a>
+      <a href="../views/contact.html">Entre para o clube</a>
     </div>
   </header>
 
@@ -62,12 +63,12 @@
 
   <!--                                      inicio carrossel -->
   <div id="carousel">
-    <img src="/images/foot.jpg" class="slide">
-    <img src="/images/hero-bg.jpg" class="slide">
-    <img src="/images/ucd-sport-2016-pageBanner04.jpg" class="slide">
+    <img src="../images/foot.jpg" class="slide">
+    <img src="../images/hero-bg.jpg" class="slide">
+    <img src="../images/ucd-sport-2016-pageBanner04.jpg" class="slide">
   </div>
-  <button id="previous"> <img src="/images/arrow-circle-left.svg" alt=""> </button>
-  <button id="next"> <img src="/images/arrow-circle-right.svg" alt=""> </button>
+  <button id="previous"> <img src="../images/arrow-circle-left.svg" alt=""> </button>
+  <button id="next"> <img src="../images/arrow-circle-right.svg" alt=""> </button>
 
   <!-- bolinhas de paginacao -->
   <div id="pagination">
@@ -85,27 +86,27 @@
     <div class="card-container">
 
       <a class="card-trending" href="#" onclick="showModal(event, 1)">
-        <img src="/images/trend05.webp" alt="Trending 1" id="tendencia_imagem1">
+        <img src="../images/trend05.webp" alt="Trending 1" id="tendencia_imagem1">
         <h3 id="title-tendencia1">Casaco SoulCoder SF.T7</h3>
         <p>Elegancia e funcionalidade unidas num só lugar.</p>
       </a>
 
       <a class="card-trending" href="#" onclick="showModal(event, 2)">
-        <img src="/images/trend7.png" alt="Trending 2" id="tendencia_imagem2">
+        <img src="../images/trend7.png" alt="Trending 2" id="tendencia_imagem2">
         <h3 id="title-tendencia2">Camisa MLK
         </h3>
         <p>Estilo e uma importante causa social.</p>
       </a>
 
       <a class="card-trending " href="#" onclick="showModal(event, 3)">
-        <img src="/images/trendBr.jpeg" alt="Trending 3" id="tendencia_imagem3">
+        <img src="../images/trendBr.jpeg" alt="Trending 3" id="tendencia_imagem3">
         <h3 id="title-tendencia3">Tênis SportCoder
         </h3>
         <p>Lorem consectetur adipisicing elit.</p>
       </a>
 
       <a class="card-trending" href="#" onclick="showModal(event, 4)">
-        <img src="/images/trend6.jpg" alt="Trending 4" id="tendencia_imagem4">
+        <img src="../images/trend6.jpg" alt="Trending 4" id="tendencia_imagem4">
         <h3 id="title-tendencia4">Tênis SportCoder
         </h3>
         <p>Alinhe seu desempenho maximo com tecnologia.</p>
@@ -142,7 +143,7 @@
     <div class="btn-box">
       <button class="botnn" id="btn-prev">
         <p>
-          < </p>
+           </p>
       </button>
       <button class="botnn" id="btn-next">
         <p> > </p>
@@ -157,7 +158,7 @@
   <section class="produtos">
 
     <div class="destaque-card">
-      <img src="..//images/camisa.webp" alt="Imagem do produto 1">
+      <img src="../images/camisa.webp" alt="Imagem do produto 1">
       <div class="desconto">10% OFF</div>
       <div class="preco">R$ 89,90</div>
       <div class="descricao">Camiseta Adicolor - Ela mantém seu corpo seco com o tecido AEROREADY, que controla a umidade, para que você siga confortável.</div>
@@ -190,7 +191,7 @@
       <img src="../images/calca2.webp" alt="Imagem do produto 6">
       <div class="desconto">20% OFF</div>
       <div class="preco">R$ 199,99</div>
-      <div class="descricao">Calças Afuniladas - Exiba um look atlético dentro e fora de campo. Esta calça juvenil adidas atualiza o DNA do futebol seguindo um estilo moderno e sofisticado.</div>
+      <div class="descricao">Calças Afuniladas - Exiba um look atlético dentro e fora de campo.</div>
     </div>
     <div class="destaque-card">
       <img src="../images/calca3.webp" alt="Imagem do produto 7">
@@ -202,19 +203,19 @@
       <img src="../images/calca4.webp" alt="Imagem do produto 8">
       <div class="desconto">20% OFF</div>
       <div class="preco">R$  249,99</div>
-      <div class="descricao"> Calça Beand Love - O tecido AEROREADY ajuda a controlar a umidade, portanto, mesmo que sua tarde tenha mais ação do que você esperava, seu corpo estará seco e confortável.</div>
+      <div class="descricao"> Calça Beand Love - O tecido AEROREADY ajuda a controlar a umidade.</div>
     </div>
     <div class="destaque-card">
       <img src="../images/tenis2.webp" alt="Imagem do produto 10">
       <div class="desconto">20% OFF</div>
       <div class="preco">R$ 499,99</div>
-      <div class="descricao"> Stan Smith Her Vegan - Este tênis adidas Stan Smith adota a mentalidade "Make it juicy”, que está literalmente na etiqueta da língua, como um lembrete divertido para você extrair o melhor do seu dia. </div>
+      <div class="descricao"> Stan Smith Her Vegan - Este tênis adidas Stan Smith adota a mentalidade "Make it juicy”. </div>
     </div>
     <div class="destaque-card">
       <img src="../images/tenis.webp" alt="Imagem do produto 9">
       <div class="desconto">20% OFF</div>
       <div class="preco">R$ 599,99</div>
-      <div class="descricao">Tenis Super Smith - Criado originalmente para as quadras de basquete nos anos 70. Celebrado pelas lendas do hip hop da década de 80. </div>
+      <div class="descricao">Tenis Super Smith - Criado originalmente para as quadras de basquete nos anos 70. </div>
     </div>
   </section>
 
@@ -224,7 +225,7 @@
   <section class="banner">
     <h2>Entre para o Clube e ganhe 20% OFF!</h2>
 
-    <a href="#">
+    <a href="../views/contact.html">
       Cadastre-se gratuiamente
     </a>
 
@@ -243,7 +244,7 @@
         <div class="card-content">
           <h2 class="card-title">Calçados</h2>
           <p class="card-body">
-            O melhor {item} para o seu desempenho.
+            Aumente seu desempenho com os melhores calçados.
           </p>
           <a href="#" class="buttom bskills categ1" data-categoria="calçados">Confira aqui</a>
         </div>
@@ -253,7 +254,7 @@
         <div class="card-content">
           <h2 class="card-title">Blusas</h2>
           <p class="card-body">
-            O melhor {item} para o seu desempenho.
+            O melhor em blusas e moletons.
           </p>
           <a href="#" class="buttom bskills categ2" data-categoria="blusas">Confira aqui</a>
         </div>
@@ -263,7 +264,7 @@
         <div class="card-content">
           <h2 class="card-title">Calças</h2>
           <p class="card-body">
-            O melhor {item} para o seu desempenho.
+            As melhores calças do mercado.
           </p>
           <a href="#" class="buttom bskills categ3">Confira aqui</a>
         </div>
@@ -273,7 +274,7 @@
         <div class="card-content">
           <h2 class="card-title">Todas</h2>
           <p class="card-body">
-            O melhor {item} para o seu desempenho.
+            Confira todo nosso estoque.
           </p>
           <a href="#" class="buttom bskills categ4">Confira aqui</a>
         </div>
@@ -293,15 +294,15 @@
 
   <!-- ----                                    nao mexer abaixo -->
   <!-- header  -->
-  <script src="/js/header.js"></script>
+  <script src="../js/header.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <!-- carrinho  -->
-  <script src="/js/carrinho.js"></script>
+  <script src="../js/carrinho.js"></script>
 
-  <script src="/js/home.js"></script>
-  <script src="/js/carrossel.js"></script>
-  <iframe src="/partials/footer.html" frameborder="0" height="150px" width="100%"></iframe>
+  <script src="../js/home.js"></script>
+  <script src="../js/carrossel.js"></script>
+  <iframe src="../partials/footer.html" frameborder="0" height="150px" width="100%"></iframe>
   <!-- <iframe src="/partials/footer.html" frameborder="0" height="150px" width="100%"></iframe> -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
