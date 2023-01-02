@@ -90,7 +90,7 @@ function showModal(event, cardId) {
     modalImage.src = img.src;
     modalTitle.textContent = h3.textContent;
     modalDescription.textContent = 
-    'Depois de uma participação frustrante na ultima copa do mundo realizada no QATAR, o que podemos esperar para a proxima??  Ronaldo fenomeno junto com Ronaldinho Gaucho, Roberto Carlos, Cafu e Kaka, afirmaram nessa segunda feira dia 26/12 que iriam abrir uma escolinha de futebol para trazer essa alegria mais uma vêz para o povo Brasileiro';
+    'Como o hexa não veio em 2022, estamos lançando a camisa "Em 2026 o hexa vem" Mas porque estamos lançando esta camisa agora? Por que o brasileiro é um povo que nunca perde a esperança que dias melhores virão e que acredita na nossa seleção, pois nós somos o país do futebol. ';
     // modalValor.textContent  = '99,99R$'
     modalMore.innerHTML = '<a href="../trendings/trend3.html">Saiba mais</a>';
 
