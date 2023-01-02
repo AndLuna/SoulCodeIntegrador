@@ -3,7 +3,7 @@ mostrarModal = (modalID) => {
   if(modal){
       modal.classList.add('Mostrar');
       modal.addEventListener('click', (e) =>{
-          if(e.target.id == modalID || e.target.className == 'FecharModal'){
+          if(e.target.id == modalID || e.target.className == 'FecharModal' || e.target.className == 'Comprar'){
               modal.classList.remove('Mostrar')
           }
       });
