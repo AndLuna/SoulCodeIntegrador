@@ -66,7 +66,7 @@ function showModal(event, cardId) {
     modalDescription.textContent =
      'O novo casaco SoulCoder SF.T7 vem sendo cada vez mais utilizado em todos os lugares e isso é devido a nova tenologia inserida nesse produto, a novo casaco Soul Coder SF.T7 conta com uma moderna tecnologia que permite que você possa recarregar seu smart phone ao coloca-lo no bolso, a tecnologia funciona por indussão, ou seja, basta jogar seu aparelho no bolso e ficar despreocupado';
     // modalValor.textContent  = '299,99R$';
-    modalMore.innerHTML = '<a href="../trendings/trend1.html">Saiba mais</a>';
+    modalMore.innerHTML = '<a href="./trendings/trend1.html">Saiba mais</a>';
  
   } 
   
@@ -79,7 +79,7 @@ function showModal(event, cardId) {
     modalDescription.textContent = 
     'O time do Atlanta Hawks anunciou um uniforme que homenageia a luta pelos direitos civis de Dr. Martin Luther King Jr. Será a primeira vez na história da NBA que as iniciais de uma pessoa estampam a parte frontal de um uniforme de jogo oficial de uma franquia.';
     // modalValor.textContent  = '199,99R$'
-    modalMore.innerHTML = '<a href="../trendings/trend2.html">Saiba mais</a>';
+    modalMore.innerHTML = '<a href="./trendings/trend2.html">Saiba mais</a>';
 
   } 
   
@@ -92,7 +92,7 @@ function showModal(event, cardId) {
     modalDescription.textContent = 
     'Como o hexa não veio em 2022, estamos lançando a camisa "Em 2026 o hexa vem" Mas porque estamos lançando esta camisa agora? Por que o brasileiro é um povo que nunca perde a esperança que dias melhores virão e que acredita na nossa seleção, pois nós somos o país do futebol. ';
     // modalValor.textContent  = '99,99R$'
-    modalMore.innerHTML = '<a href="../trendings/trend3.html">Saiba mais</a>';
+    modalMore.innerHTML = '<a href="./trendings/trend3.html">Saiba mais</a>';
 
   }
   
@@ -105,7 +105,7 @@ function showModal(event, cardId) {
     modalDescription.textContent = 
     'Contando com uma moderna e aprimorada tecnologia o novo tenis SportCoder garante conforto seja em sua caminhada matinal ou durante de sua corrida de alta intensidade. Contando com uma moderna e aprimorada tecnologia o novo tenis SportCoder garante conforto seja em sua caminhada matinal ou durante de sua corrida de alta intensidade';
     // modalValor.textContent  = '499,99R$'
-    modalMore.innerHTML = '<a href="../trendings/trend4.html">Saiba mais</a>';
+    modalMore.innerHTML = '<a href="./trendings/trend4.html">Saiba mais</a>';
   }
 
   //tornando o modal visivel
