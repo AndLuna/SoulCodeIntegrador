@@ -76,6 +76,7 @@ filtros.forEach(function(filtro) {
   });
 });
 
+/////////////
 function filtrarProdutos(categoria) {
   // Esconder todos os itens
   var itens = document.querySelectorAll('.Itens');
